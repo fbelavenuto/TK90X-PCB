@@ -54,7 +54,6 @@ C55  100n        C-EU050-024X044 C050-024X044 CAPACITOR, European symbol
 C56  47p         C-EU050-024X044 C050-024X044 CAPACITOR, European symbol
 C57  1n          C-EU050-024X044 C050-024X044 CAPACITOR, European symbol
 C58  47u         CPOL-EUE5-4     E5-4         POLARIZED CAPACITOR, European symbol
-CVBS RF          TPPAD1-13       P1-13        Test pad
 D1   1N4148      DDO35-12        DO35-12      Diodo
 D2   1N4148      DDO35-12        DO35-12      Diodo
 D3   1N4148      DDO35-12        DO35-12      Diodo
@@ -216,5 +215,6 @@ TP8  TPSQPAD1-13 TPSQPAD1-13     P1-13        Test pad
 TP9  TPSQPAD1-13 TPSQPAD1-13     P1-13        Test pad
 TP10 TPSQPAD1-13 TPSQPAD1-13     P1-13        Test pad
 U$1  TK90_EDGE   TK90_EDGE       TK-EDGE
+X1   RCA2PINA1   RCA2PINA1       TOBU3        Female Cinch CONNECTOR ( RCA Jack )
 X2   POWER       JACK-MONO       MONO         FEMALE PRINT CONNECTOR
 XTAL 14.3044MHz  CRYSTALHC49S    HC49/S       CRYSTAL

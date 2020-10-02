@@ -61,8 +61,8 @@ Qty Value       Device          Package      Parts                              
 1   LM1886      LM1886N         DIL20        IC11
 1   LM1889      LM1889          DIL18        IC12
 1   MIC         JACK-MONO       MONO         MIC                                                                                                                                                     FEMALE PRINT CONNECTOR
+1   RCA2PINA1   RCA2PINA1       TOBU3        X1
 1   POWER       JACK-MONO       MONO         X2                                                                                                                                                      FEMALE PRINT CONNECTOR
-1   RF          TPPAD1-13       P1-13        CVBS                                                                                                                                                    Test pad
 1   ROM         25128           DIL28        IC2
 1   TECLADO     CON-TECL-5      FE05-1       KB1                                                                                                                                                     FEMALE HEADER
 1   TECLADO     CON-TECL-8      FE08         KB2                                                                                                                                                     FEMALE HEADER

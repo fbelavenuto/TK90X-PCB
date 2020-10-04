@@ -1,0 +1,218 @@
+Part      Value          Device          Package      Description
+7805      7805           78XXL           78XXL        VOLTAGE REGULATOR
+C1        100u           CPOL-EUE5-8.5   E5-8,5       POLARIZED CAPACITOR, European symbol
+C2        100u           CPOL-EUE5-8.5   E5-8,5       POLARIZED CAPACITOR, European symbol
+C3        100n           C-EU050-024X044 C050-024X044 CAPACITOR, European symbol
+C5        100n           C-EU050-024X044 C050-024X044 CAPACITOR, European symbol
+C6        100p           C-EU050-024X044 C050-024X044 CAPACITOR, European symbol
+C7        33p            C-EU050-024X044 C050-024X044 CAPACITOR, European symbol
+C8        100p           C-EU050-024X044 C050-024X044 CAPACITOR, European symbol
+C9        100p           C-EU050-024X044 C050-024X044 CAPACITOR, European symbol
+C10       47p            C-EU050-024X044 C050-024X044 CAPACITOR, European symbol
+C11       100p           C-EU050-024X044 C050-024X044 CAPACITOR, European symbol
+C12       100n           C-EU050-024X044 C050-024X044 CAPACITOR, European symbol
+C13       100n           C-EU050-024X044 C050-024X044 CAPACITOR, European symbol
+C14       100n           C-EU050-024X044 C050-024X044 CAPACITOR, European symbol
+C15       100n           C-EU050-024X044 C050-024X044 CAPACITOR, European symbol
+C16       100n           C-EU050-024X044 C050-024X044 CAPACITOR, European symbol
+C17       100n           C-EU050-024X044 C050-024X044 CAPACITOR, European symbol
+C18       100n           C-EU050-024X044 C050-024X044 CAPACITOR, European symbol
+C19       100n           C-EU050-024X044 C050-024X044 CAPACITOR, European symbol
+C20       100n           C-EU050-024X044 C050-024X044 CAPACITOR, European symbol
+C21       100n           C-EU050-024X044 C050-024X044 CAPACITOR, European symbol
+C22       100n           C-EU050-024X044 C050-024X044 CAPACITOR, European symbol
+C23       100n           C-EU050-024X044 C050-024X044 CAPACITOR, European symbol
+C24       100n           C-EU050-024X044 C050-024X044 CAPACITOR, European symbol
+C25       100n           C-EU050-024X044 C050-024X044 CAPACITOR, European symbol
+C26       100n           C-EU050-024X044 C050-024X044 CAPACITOR, European symbol
+C27       100n           C-EU050-024X044 C050-024X044 CAPACITOR, European symbol
+C28       100n           C-EU050-024X044 C050-024X044 CAPACITOR, European symbol
+C29       100n           C-EU050-024X044 C050-024X044 CAPACITOR, European symbol
+C30       100n           C-EU050-024X044 C050-024X044 CAPACITOR, European symbol
+C31       100n           C-EU050-024X044 C050-024X044 CAPACITOR, European symbol
+C32       100n           C-EU050-024X044 C050-024X044 CAPACITOR, European symbol
+C33       100n           C-EU050-024X044 C050-024X044 CAPACITOR, European symbol
+C34       47p            C-EU050-024X044 C050-024X044 CAPACITOR, European symbol
+C36       100n           C-EU050-024X044 C050-024X044 CAPACITOR, European symbol
+C37       10n            C-EU050-024X044 C050-024X044 CAPACITOR, European symbol
+C38       47p            C-EU050-024X044 C050-024X044 CAPACITOR, European symbol
+C39       4n7            C-EU050-024X044 C050-024X044 CAPACITOR, European symbol
+C40       47p            C-EU050-024X044 C050-024X044 CAPACITOR, European symbol
+C41       82p            C-EU050-024X044 C050-024X044 CAPACITOR, European symbol
+C42       100n           C-EU050-024X044 C050-024X044 CAPACITOR, European symbol
+C43       100n           C-EU050-024X044 C050-024X044 CAPACITOR, European symbol
+C44       100p           C-EU050-024X044 C050-024X044 CAPACITOR, European symbol
+C45       100p           C-EU050-024X044 C050-024X044 CAPACITOR, European symbol
+C46       100p           C-EU050-024X044 C050-024X044 CAPACITOR, European symbol
+C47       100p           C-EU050-024X044 C050-024X044 CAPACITOR, European symbol
+C48       100n           C-EU050-024X044 C050-024X044 CAPACITOR, European symbol
+C49       1u             CPOL-EUE2-4     E2-4         POLARIZED CAPACITOR, European symbol
+C50       100n           C-EU050-024X044 C050-024X044 CAPACITOR, European symbol
+C51       100n           C-EU050-024X044 C050-024X044 CAPACITOR, European symbol
+C52       1u             CPOL-EUE2-5     E2-5         POLARIZED CAPACITOR, European symbol
+C53       100u           CPOL-EUE5-4     E5-4         POLARIZED CAPACITOR, European symbol
+C54       100n           C-EU050-024X044 C050-024X044 CAPACITOR, European symbol
+C55       100n           C-EU050-024X044 C050-024X044 CAPACITOR, European symbol
+C56       47p            C-EU050-024X044 C050-024X044 CAPACITOR, European symbol
+C57       1n             C-EU050-024X044 C050-024X044 CAPACITOR, European symbol
+D1        1N4148         DDO35-12        DO35-12      Diodo
+D2        1N4148         DDO35-12        DO35-12      Diodo
+D3        1N4148         DDO35-12        DO35-12      Diodo
+D4        1N4148         DDO35-12        DO35-12      Diodo
+D5        1N4148         DDO35-12        DO35-12      Diodo
+D6        1N4148         DDO35-12        DO35-12      Diodo
+D7        1N4148         DDO35-12        DO35-12      Diodo
+D8        1N4148         DDO35-12        DO35-12      Diodo
+D9        1N4148         DDO35-12        DO35-12      Diodo
+D10       1N4148         DDO35-12        DO35-12      Diodo
+D11       1N4148         DDO35-12        DO35-12      Diodo
+D12       1N4148         DDO35-12        DO35-12      Diodo
+D13       1N4148         DDO35-12        DO35-12      Diodo
+D14       1N4148         DIODE-D-5       D-5          DIODE
+D15       1N4148         DDO35-12        DO35-12      Diodo
+D16       1N4148         DDO35-12        DO35-12      Diodo
+D17       1N4148         DDO35-12        DO35-12      Diodo
+D18       1N4148         DDO35-12        DO35-12      Diodo
+D19       1N4148         DDO35-12        DO35-12      Diodo
+D20       1N4148         DDO35-12        DO35-12      Diodo
+D21       5V             DDO35-12        DO35-12      Diodo
+D22       1N4148         DDO35-12        DO35-12      Diodo
+D23       1N4148         DDO35-12        DO35-12      Diodo
+D24       12V            DDO35-12        DO35-12      Diodo
+D25       1N4148         DIODE-D-5       D-5          DIODE
+D25_      Varicap        VARICAP-200     D200
+D26       1N4148         DIODE-D-5       D-5          DIODE
+D27       1N4148         DDO35-12        DO35-12      Diodo
+EAR       EAR            JACK-MONO       MONO         FEMALE PRINT CONNECTOR
+IC1       Z80            Z80CPU          DIL40        Z80 FAMILY DEVICE
+IC2       ROM            25128           DIL28
+IC3       ULA TK90       ULA-TK90        DIL40
+IC4       74LS74         74LS74N         DIL14        Dual D type positive edge triggered FLIP FLOP, preset and clear
+IC5       74LS74         74LS74N         DIL14        Dual D type positive edge triggered FLIP FLOP, preset and clear
+IC6       74LS157        74S157N         DIL16        Quadruple 2-line to 1-line data SELECTOR/MULTIPLEXER
+IC7       74LS157        74S157N         DIL16        Quadruple 2-line to 1-line data SELECTOR/MULTIPLEXER
+IC8       74LS157        74S157N         DIL16        Quadruple 2-line to 1-line data SELECTOR/MULTIPLEXER
+IC9       74LS157        74S157N         DIL16        Quadruple 2-line to 1-line data SELECTOR/MULTIPLEXER
+IC10      74LS365N       74LS365N        DIL16        Hex BUS DRIVER, 3-state
+IC11      LM1886         LM1886N         DIL20
+IC12      LM1889         LM1889          DIL18
+IC13      4116           MK4516          DIL16
+IC14      4116           MK4516          DIL16
+IC15      4116           MK4516          DIL16
+IC16      4116           MK4516          DIL16
+IC17      4116           MK4516          DIL16
+IC18      4116           MK4516          DIL16
+IC19      4116           MK4516          DIL16
+IC20      4116           MK4516          DIL16
+IC21      4416           4416            DIL18        MEMORY
+IC22      4416           4416            DIL18        MEMORY
+IC23      4416           4416            DIL18        MEMORY
+IC24      4416           4416            DIL18        MEMORY
+IC25      74LS00         74LS00N         DIL14        Quad 2-input NAND gate
+IC26      74LS00         74LS00N         DIL14        Quad 2-input NAND gate
+IC27      74LS32         74LS32N         DIL14        Quad 2-input OR gate
+IC28      74LS04         74LS04N         DIL14        Hex INVERTER
+JP                       J2X1MM          03C          Jumper switch 2 x 2.5 mm
+KB1       TECLADO        CON-TECL-5      FE05-1       FEMALE HEADER
+KB2       TECLADO        CON-TECL-8      FE08         FEMALE HEADER
+L1        10uH/15K/120pF COIL            COIL         FILTER
+L2        27u            L-US0207/7      0207/7       INDUCTOR, American symbol
+L3        80n            L-EU0204/5      0204/5       INDUCTOR, European symbol
+MIC       MIC            JACK-MONO       MONO         FEMALE PRINT CONNECTOR
+P         JOYSTICK       M09.590S        177-009-MALE SUB-D
+Q1        BC548          -NPN-TO92L      TO92L        NPN Transistror
+Q2        BC548          -NPN-TO92L      TO92L        NPN Transistror
+Q3        BF494          BF494           TO92-CEB     NPN TRANSISTOR
+Q4        BC548          -NPN-TO92L      TO92L        NPN Transistror
+Q5        BD139          BD139           TO126AV      NPN TRANSISTOR
+Q6        BD136          BD140           TO126AV      PNP TRANSISTOR
+Q7        BC548          -NPN-TO92L      TO92L        NPN Transistror
+R1        470            R-EU_0207/12    0207/12      RESISTOR, European symbol
+R2        470            R-EU_0207/12    0207/12      RESISTOR, European symbol
+R3        470            R-EU_0207/12    0207/12      RESISTOR, European symbol
+R4        470            R-EU_0207/12    0207/12      RESISTOR, European symbol
+R5        470            R-EU_0207/12    0207/12      RESISTOR, European symbol
+R6        470            R-EU_0207/12    0207/12      RESISTOR, European symbol
+R7        470            R-EU_0207/12    0207/12      RESISTOR, European symbol
+R8        470            R-EU_0207/12    0207/12      RESISTOR, European symbol
+R9        470            R-EU_0207/12    0207/12      RESISTOR, European symbol
+R10       470            R-EU_0207/12    0207/12      RESISTOR, European symbol
+R11       470            R-EU_0207/12    0207/12      RESISTOR, European symbol
+R12       470            R-EU_0207/12    0207/12      RESISTOR, European symbol
+R13       470            R-EU_0207/12    0207/12      RESISTOR, European symbol
+R14       470            R-EU_0207/12    0207/12      RESISTOR, European symbol
+R15       470            R-EU_0207/12    0207/12      RESISTOR, European symbol
+R16       220            R-EU_0207/12    0207/12      RESISTOR, European symbol
+R17       10K            R-EU_0207/12    0207/12      RESISTOR, European symbol
+R18       10K            R-EU_0207/12    0207/12      RESISTOR, European symbol
+R19       10K            R-EU_0207/12    0207/12      RESISTOR, European symbol
+R20       10K            R-EU_0207/12    0207/12      RESISTOR, European symbol
+R21       10K            R-EU_0207/12    0207/12      RESISTOR, European symbol
+R22       10K            R-EU_0207/12    0207/12      RESISTOR, European symbol
+R23       10K            R-EU_0207/12    0207/12      RESISTOR, European symbol
+R24       10K            R-EU_0207/12    0207/12      RESISTOR, European symbol
+R25       470            R-EU_0207/12    0207/12      RESISTOR, European symbol
+R26       470            R-EU_0207/12    0207/12      RESISTOR, European symbol
+R27       470            R-EU_0207/12    0207/12      RESISTOR, European symbol
+R28       470            R-EU_0207/12    0207/12      RESISTOR, European symbol
+R29       1M             R-EU_0207/12    0207/12      RESISTOR, European symbol
+R30       4K7            R-EU_0207/12    0207/12      RESISTOR, European symbol
+R31       4K7            R-EU_0207/12    0207/12      RESISTOR, European symbol
+R32       4K7            R-EU_0207/12    0207/12      RESISTOR, European symbol
+R33       1K             R-EU_0207/12    0207/12      RESISTOR, European symbol
+R34       470            R-EU_0207/12    0207/12      RESISTOR, European symbol
+R35       4K7            R-EU_0207/12    0207/12      RESISTOR, European symbol
+R36       4K7            R-EU_0207/12    0207/12      RESISTOR, European symbol
+R37       4K7            R-EU_0207/12    0207/12      RESISTOR, European symbol
+R38       4K7            R-EU_0207/12    0207/12      RESISTOR, European symbol
+R39       4K7            R-EU_0207/12    0207/12      RESISTOR, European symbol
+R40       3K3            R-EU_0207/12    0207/12      RESISTOR, European symbol
+R41       680            R-EU_0207/5V    0207/5V      RESISTOR, European symbol
+R42       100            R-EU_0207/5V    0207/5V      RESISTOR, European symbol
+R43       2K2            R-EU_0207/12    0207/12      RESISTOR, European symbol
+R44       2K2            R-EU_0207/12    0207/12      RESISTOR, European symbol
+R45       470            R-EU_0207/12    0207/12      RESISTOR, European symbol
+R46       10K            R-EU_0207/12    0207/12      RESISTOR, European symbol
+R47       100            R-EU_0207/12    0207/12      RESISTOR, European symbol
+R48       220            R-EU_0207/12    0207/12      RESISTOR, European symbol
+R49       1K             R-EU_0207/12    0207/12      RESISTOR, European symbol
+R50       1K             R-EU_0207/12    0207/12      RESISTOR, European symbol
+R51       4K7            R-EU_0207/12    0207/12      RESISTOR, European symbol
+R52       22K            R-EU_0207/5V    0207/5V      RESISTOR, European symbol
+R53       47K            R-EU_0207/12    0207/12      RESISTOR, European symbol
+R54       39K            R-EU_0207/12    0207/12      RESISTOR, European symbol
+R55       1K             R-EU_0207/5V    0207/5V      RESISTOR, European symbol
+R56       1K             R-EU_0207/5V    0207/5V      RESISTOR, European symbol
+R57       220            R-EU_0207/5V    0207/5V      RESISTOR, European symbol
+R58       220            R-EU_0207/5V    0207/5V      RESISTOR, European symbol
+R59       470            R-EU_0207/5V    0207/5V      RESISTOR, European symbol
+R60       ?              R-EU_0207/5V    0207/5V      RESISTOR, European symbol
+R63       4K7            R-EU_0207/12    0207/12      RESISTOR, European symbol
+R64       4K7            R-EU_0207/12    0207/12      RESISTOR, European symbol
+R65       1K             R-EU_0207/12    0207/12      RESISTOR, European symbol
+R66       470            R-EU_0207/12    0207/12      RESISTOR, European symbol
+R67       470            R-EU_0207/12    0207/12      RESISTOR, European symbol
+R68       100            R-EU_0207/12    0207/12      RESISTOR, European symbol
+R69       100            R-EU_0207/5V    0207/5V      RESISTOR, European symbol
+R70       100            R-EU_0207/5V    0207/5V      RESISTOR, European symbol
+R71       3K3            R-EU_0207/5V    0207/5V      RESISTOR, European symbol
+R72       10K            R-EU_0207/5V    0207/5V      RESISTOR, European symbol
+R73       10K            R-EU_0207/5V    0207/5V      RESISTOR, European symbol
+R73_      3K3            R-EU_0207/12    0207/12      RESISTOR, European symbol
+R74       10K            R-EU_0207/5V    0207/5V      RESISTOR, European symbol
+R74_      470            R-EU_0207/12    0207/12      RESISTOR, European symbol
+R75       10K            R-EU_0207/12    0207/12      RESISTOR, European symbol
+TP1       TPSQPAD1-13    TPSQPAD1-13     P1-13        Test pad
+TP2       TPSQPAD1-13    TPSQPAD1-13     P1-13        Test pad
+TP3       TPSQPAD1-13    TPSQPAD1-13     P1-13        Test pad
+TP4       TPSQPAD1-13    TPSQPAD1-13     P1-13        Test pad
+TP5       TPSQPAD1-13    TPSQPAD1-13     P1-13        Test pad
+TP6       TPSQPAD1-13    TPSQPAD1-13     P1-13        Test pad
+TP7       TPSQPAD1-13    TPSQPAD1-13     P1-13        Test pad
+TP8       TPSQPAD1-13    TPSQPAD1-13     P1-13        Test pad
+TP9       TPSQPAD1-13    TPSQPAD1-13     P1-13        Test pad
+TP10      TPSQPAD1-13    TPSQPAD1-13     P1-13        Test pad
+U$1       TK90_EDGE      TK90_EDGE       TK-EDGE
+VIDEO(RF) RF             TPPAD1-13       P1-13        Test pad
+X2        POWER          JACK-MONO       MONO         FEMALE PRINT CONNECTOR
+XTAL      14.3044MHz     CRYSTALHC49S    HC49/S       CRYSTAL

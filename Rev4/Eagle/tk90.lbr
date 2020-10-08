@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="mil" style="lines" multiple="1" display="yes" altdistance="6.25" altunitdist="mil" altunit="mil"/>
+<grid distance="6.25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="12.5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -52,7 +52,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -60,10 +60,6 @@
 <layer number="50" name="dxf" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
@@ -74,20 +70,8 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="99" name="SpiceOrder" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
-<layer number="105" name="Beschreib" color="9" fill="1" visible="no" active="no"/>
-<layer number="106" name="BGA-Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="107" name="BD-Top" color="5" fill="1" visible="no" active="no"/>
-<layer number="201" name="201bmp" color="2" fill="1" visible="no" active="no"/>
-<layer number="202" name="202bmp" color="3" fill="1" visible="no" active="no"/>
-<layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
-<layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
-<layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
-<layer number="220" name="220bmp" color="21" fill="1" visible="no" active="no"/>
-<layer number="221" name="221bmp" color="22" fill="1" visible="no" active="no"/>
-<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
-<layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
-<layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
 <layer number="250" name="test" color="7" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
 <packages>
@@ -2240,8 +2224,8 @@ Source: Digi-Key, subd.pdf</description>
 <wire x1="3.175" y1="3.81" x2="3.175" y2="0" width="0" layer="20"/>
 <wire x1="3.175" y1="0" x2="-2.8575" y2="0" width="0" layer="20"/>
 <wire x1="-2.8575" y1="0" x2="-2.8575" y2="3.81" width="0" layer="20"/>
-<hole x="-12.54125" y="0" drill="3.556"/>
-<hole x="12.54125" y="0" drill="3.556"/>
+<circle x="-12.5095" y="0" radius="1.79605" width="0.0254" layer="20"/>
+<circle x="12.5222" y="0" radius="1.79605" width="0.0254" layer="20"/>
 </package>
 <package name="182-009-MALE">
 <description>&lt;b&gt;NORCOMP Right Angle D-Sub Connector&lt;/b&gt;, 182 Economy Series (.318" Footprint)&lt;p&gt;
@@ -2373,291 +2357,6 @@ Source: ERNI-D-Sub-Conmnectors-d.pdf / www.erni.com</description>
 <pad name="B" x="1.905" y="0" drill="0.8128" shape="octagon" rot="R90"/>
 <text x="-2.54" y="3.048" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.54" y="-3.302" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-</package>
-<package name="TO92-EBC">
-<wire x1="-2.095" y1="-1.651" x2="2.095" y2="-1.651" width="0.127" layer="21"/>
-<wire x1="-2.413" y1="1.1359" x2="2.413" y2="1.1359" width="0.127" layer="21" curve="-129.583"/>
-<wire x1="1.136" y1="-0.127" x2="-1.136" y2="-0.127" width="0.127" layer="51"/>
-<wire x1="-2.413" y1="1.1359" x2="-2.664" y2="-0.127" width="0.127" layer="51" curve="27.9376"/>
-<wire x1="-2.664" y1="-0.127" x2="-2.413" y2="-1.1359" width="0.127" layer="51" curve="22.4788"/>
-<wire x1="-1.404" y1="-0.127" x2="-2.664" y2="-0.127" width="0.127" layer="51"/>
-<wire x1="-2.4135" y1="-1.1359" x2="-2.095" y2="-1.651" width="0.127" layer="21" curve="13.0385"/>
-<wire x1="-1.136" y1="-0.127" x2="-1.404" y2="-0.127" width="0.127" layer="21"/>
-<wire x1="2.413" y1="-1.1359" x2="2.664" y2="-0.127" width="0.127" layer="51" curve="22.4788"/>
-<wire x1="2.664" y1="-0.127" x2="2.413" y2="1.1359" width="0.127" layer="51" curve="27.9376"/>
-<wire x1="2.664" y1="-0.127" x2="1.404" y2="-0.127" width="0.127" layer="51"/>
-<wire x1="1.404" y1="-0.127" x2="1.136" y2="-0.127" width="0.127" layer="21"/>
-<wire x1="2.095" y1="-1.651" x2="2.4247" y2="-1.1118" width="0.127" layer="21" curve="13.6094"/>
-<pad name="E" x="-1.905" y="0" drill="0.8128" shape="octagon" rot="R90"/>
-<pad name="B" x="0" y="2.54" drill="0.8128" shape="octagon" rot="R90"/>
-<pad name="C" x="1.905" y="0" drill="0.8128" shape="octagon" rot="R90"/>
-<text x="-2.54" y="3.048" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.54" y="-3.302" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-</package>
-<package name="TOBU3">
-<description>Female Cinch &lt;B&gt;CONNECTOR&lt;/B&gt; ( RCA Jack )</description>
-<wire x1="2.286" y1="5.08" x2="4.826" y2="5.08" width="0.1524" layer="21"/>
-<wire x1="-5.588" y1="-0.127" x2="-5.588" y2="4.318" width="0.6096" layer="21"/>
-<wire x1="5.588" y1="-0.127" x2="5.588" y2="-3.302" width="0.6096" layer="51"/>
-<wire x1="-5.588" y1="-0.127" x2="-5.588" y2="-3.302" width="0.6096" layer="51"/>
-<wire x1="1.397" y1="-2.54" x2="-1.397" y2="-2.54" width="0.1524" layer="51"/>
-<wire x1="-1.397" y1="-2.54" x2="-1.397" y2="3.429" width="0.1524" layer="21"/>
-<wire x1="1.397" y1="-2.54" x2="1.397" y2="3.429" width="0.1524" layer="21"/>
-<wire x1="1.397" y1="3.429" x2="1.397" y2="5.08" width="0.1524" layer="51"/>
-<wire x1="-1.397" y1="3.429" x2="-1.397" y2="5.08" width="0.1524" layer="51"/>
-<wire x1="-1.397" y1="5.08" x2="-2.286" y2="5.08" width="0.6096" layer="51"/>
-<wire x1="-1.397" y1="5.08" x2="1.397" y2="5.08" width="0.6096" layer="51"/>
-<wire x1="1.397" y1="5.08" x2="2.286" y2="5.08" width="0.6096" layer="51"/>
-<wire x1="4.826" y1="5.08" x2="5.588" y2="4.318" width="0.6096" layer="21" curve="-90"/>
-<wire x1="5.588" y1="4.318" x2="5.588" y2="-0.127" width="0.6096" layer="21"/>
-<wire x1="-5.588" y1="4.318" x2="-4.826" y2="5.08" width="0.6096" layer="21" curve="-90"/>
-<wire x1="-4.826" y1="5.08" x2="-2.286" y2="5.08" width="0.1524" layer="21"/>
-<wire x1="-4.699" y1="5.334" x2="-4.191" y2="5.842" width="0.1524" layer="21" curve="90"/>
-<wire x1="-4.191" y1="11.303" x2="-3.683" y2="11.811" width="0.1524" layer="21" curve="-90"/>
-<wire x1="3.683" y1="11.811" x2="4.191" y2="11.303" width="0.1524" layer="21" curve="-90"/>
-<wire x1="4.191" y1="5.842" x2="4.699" y2="5.334" width="0.1524" layer="21" curve="90"/>
-<wire x1="-4.191" y1="5.842" x2="-4.191" y2="11.303" width="0.1524" layer="21"/>
-<wire x1="4.191" y1="11.303" x2="4.191" y2="5.842" width="0.1524" layer="21"/>
-<wire x1="-3.683" y1="11.811" x2="-3.048" y2="11.811" width="0.1524" layer="21"/>
-<wire x1="4.191" y1="5.842" x2="2.159" y2="5.842" width="0.1524" layer="21"/>
-<wire x1="2.159" y1="5.842" x2="-2.159" y2="5.842" width="0.1524" layer="51"/>
-<wire x1="-2.159" y1="5.842" x2="-4.191" y2="5.842" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="11.303" x2="3.81" y2="11.303" width="0.1524" layer="21"/>
-<wire x1="1.397" y1="-2.286" x2="-1.397" y2="-2.286" width="0.1524" layer="51"/>
-<wire x1="-3.556" y1="6.477" x2="-3.556" y2="10.668" width="0.1524" layer="21"/>
-<wire x1="-3.048" y1="6.477" x2="-3.048" y2="9.017" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="6.477" x2="-2.54" y2="7.874" width="0.1524" layer="21"/>
-<wire x1="3.556" y1="6.477" x2="3.556" y2="10.668" width="0.1524" layer="21"/>
-<wire x1="3.048" y1="6.477" x2="3.048" y2="9.017" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="6.477" x2="2.54" y2="7.874" width="0.1524" layer="21"/>
-<wire x1="-3.048" y1="11.811" x2="-3.048" y2="11.938" width="0.1524" layer="21"/>
-<wire x1="-3.048" y1="11.811" x2="3.048" y2="11.811" width="0.1524" layer="21"/>
-<wire x1="-3.048" y1="11.938" x2="3.048" y2="11.938" width="0.1524" layer="21"/>
-<wire x1="3.048" y1="11.938" x2="3.048" y2="11.811" width="0.1524" layer="21"/>
-<wire x1="3.048" y1="11.811" x2="3.683" y2="11.811" width="0.1524" layer="21"/>
-<pad name="PIN" x="0" y="-2.54" drill="1.397" shape="octagon"/>
-<pad name="SHELL" x="5.588" y="-2.54" drill="2.2098" shape="octagon"/>
-<pad name="SHELL@1" x="-5.588" y="-2.54" drill="2.2098" shape="octagon"/>
-<pad name="SHELL@2" x="0" y="5.08" drill="2.2098" shape="octagon"/>
-<text x="-4.826" y="5.842" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="6.096" y="5.842" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
-</package>
-<package name="DX1">
-<description>DX SKU 122552 / 137994</description>
-<wire x1="2.286" y1="2.54" x2="4.826" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-5.588" y1="-2.667" x2="-5.588" y2="1.778" width="0.6096" layer="21"/>
-<wire x1="1.397" y1="-5.08" x2="-1.397" y2="-5.08" width="0.1524" layer="51"/>
-<wire x1="-1.397" y1="-5.08" x2="-1.397" y2="0.889" width="0.1524" layer="21"/>
-<wire x1="1.397" y1="-5.08" x2="1.397" y2="0.889" width="0.1524" layer="21"/>
-<wire x1="1.397" y1="0.889" x2="1.397" y2="2.54" width="0.1524" layer="51"/>
-<wire x1="-1.397" y1="0.889" x2="-1.397" y2="2.54" width="0.1524" layer="51"/>
-<wire x1="-1.397" y1="2.54" x2="-2.286" y2="2.54" width="0.6096" layer="51"/>
-<wire x1="-1.397" y1="2.54" x2="1.397" y2="2.54" width="0.6096" layer="51"/>
-<wire x1="1.397" y1="2.54" x2="2.286" y2="2.54" width="0.6096" layer="51"/>
-<wire x1="4.826" y1="2.54" x2="5.588" y2="1.778" width="0.6096" layer="21" curve="-90"/>
-<wire x1="5.588" y1="1.778" x2="5.588" y2="-2.667" width="0.6096" layer="21"/>
-<wire x1="-5.588" y1="1.778" x2="-4.826" y2="2.54" width="0.6096" layer="21" curve="-90"/>
-<wire x1="-4.826" y1="2.54" x2="-2.286" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-4.699" y1="2.794" x2="-4.191" y2="3.302" width="0.1524" layer="21" curve="90"/>
-<wire x1="-4.191" y1="8.763" x2="-3.683" y2="9.271" width="0.1524" layer="21" curve="-90"/>
-<wire x1="3.683" y1="9.271" x2="4.191" y2="8.763" width="0.1524" layer="21" curve="-90"/>
-<wire x1="4.191" y1="3.302" x2="4.699" y2="2.794" width="0.1524" layer="21" curve="90"/>
-<wire x1="-4.191" y1="3.302" x2="-4.191" y2="8.763" width="0.1524" layer="21"/>
-<wire x1="4.191" y1="8.763" x2="4.191" y2="3.302" width="0.1524" layer="21"/>
-<wire x1="-3.683" y1="9.271" x2="-3.048" y2="9.271" width="0.1524" layer="21"/>
-<wire x1="4.191" y1="3.302" x2="2.159" y2="3.302" width="0.1524" layer="21"/>
-<wire x1="2.159" y1="3.302" x2="-2.159" y2="3.302" width="0.1524" layer="51"/>
-<wire x1="-2.159" y1="3.302" x2="-4.191" y2="3.302" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="8.763" x2="3.81" y2="8.763" width="0.1524" layer="21"/>
-<wire x1="1.397" y1="-4.826" x2="-1.397" y2="-4.826" width="0.1524" layer="51"/>
-<wire x1="-3.556" y1="3.937" x2="-3.556" y2="8.128" width="0.1524" layer="21"/>
-<wire x1="-3.048" y1="3.937" x2="-3.048" y2="6.477" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="3.937" x2="-2.54" y2="5.334" width="0.1524" layer="21"/>
-<wire x1="3.556" y1="3.937" x2="3.556" y2="8.128" width="0.1524" layer="21"/>
-<wire x1="3.048" y1="3.937" x2="3.048" y2="6.477" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="3.937" x2="2.54" y2="5.334" width="0.1524" layer="21"/>
-<wire x1="-3.048" y1="9.271" x2="-3.048" y2="9.398" width="0.1524" layer="21"/>
-<wire x1="-3.048" y1="9.271" x2="3.048" y2="9.271" width="0.1524" layer="21"/>
-<wire x1="-3.048" y1="9.398" x2="3.048" y2="9.398" width="0.1524" layer="21"/>
-<wire x1="3.048" y1="9.398" x2="3.048" y2="9.271" width="0.1524" layer="21"/>
-<wire x1="3.048" y1="9.271" x2="3.683" y2="9.271" width="0.1524" layer="21"/>
-<pad name="1" x="0" y="-2.3975" drill="1.6"/>
-<pad name="2" x="5.588" y="-2.54" drill="2.3"/>
-<pad name="2@1" x="-5.588" y="-2.54" drill="2.3"/>
-<pad name="2@2" x="0" y="2.54" drill="2.3"/>
-<text x="-4.826" y="3.302" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="6.096" y="3.302" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
-<text x="1.905" y="-4.445" size="1.27" layer="21" ratio="10">1</text>
-<text x="6.35" y="0" size="1.27" layer="21" ratio="10">2</text>
-<text x="-4.826" y="0" size="1.27" layer="21" ratio="10">2 </text>
-</package>
-<package name="DX2">
-<description>DX SKU 140090 / 137367</description>
-<pad name="SHELL" x="0" y="-0.318140625" drill="2.3"/>
-<pad name="PIN" x="0" y="-5.715" drill="2.3" rot="R180"/>
-<wire x1="-4.9" y1="5.94" x2="4.9" y2="5.94" width="0.2032" layer="21"/>
-<wire x1="4.9" y1="5.94" x2="4.9" y2="-6.855" width="0.2032" layer="21"/>
-<wire x1="4.9" y1="-6.855" x2="-4.9" y2="-6.855" width="0.2032" layer="21"/>
-<wire x1="-4.9" y1="-6.855" x2="-4.9" y2="5.94" width="0.2032" layer="21"/>
-<wire x1="-4.05" y1="6.04" x2="-4.05" y2="14.44" width="0.2032" layer="21"/>
-<wire x1="-4.05" y1="14.44" x2="-3.55" y2="14.94" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-3.55" y1="14.94" x2="3.55" y2="14.94" width="0.2032" layer="21"/>
-<wire x1="3.55" y1="14.94" x2="4.05" y2="14.44" width="0.2032" layer="21" curve="-90"/>
-<wire x1="4.05" y1="14.44" x2="4.05" y2="6.04" width="0.2032" layer="21"/>
-<text x="-4.945" y="-10.025" size="1.27" layer="25">&gt;NAME</text>
-<text x="-5.715" y="-6.985" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<hole x="-3.5" y="3" drill="1.6"/>
-<hole x="3.5" y="3" drill="1.6"/>
-</package>
-<package name="DX3">
-<description>DX SKU 136913</description>
-<text x="-4.945" y="-6.85" size="1.27" layer="25">&gt;NAME</text>
-<text x="-5.715" y="-3.175" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<wire x1="5" y1="5.27" x2="-5" y2="5.27" width="0.2032" layer="51"/>
-<wire x1="-5" y1="5.27" x2="-5" y2="-4.53" width="0.2032" layer="51"/>
-<wire x1="-5" y1="-4.53" x2="5" y2="-4.53" width="0.2032" layer="51"/>
-<wire x1="5" y1="-4.53" x2="5" y2="5.27" width="0.2032" layer="51"/>
-<wire x1="4" y1="5.27" x2="4" y2="14.67" width="0.2032" layer="51"/>
-<wire x1="4" y1="14.67" x2="-4" y2="14.67" width="0.2032" layer="51"/>
-<wire x1="-4" y1="14.67" x2="-4" y2="5.27" width="0.2032" layer="51"/>
-<wire x1="5" y1="3.27" x2="5" y2="-0.73" width="0.2032" layer="21"/>
-<wire x1="5" y1="-4.53" x2="-5" y2="-4.53" width="0.2032" layer="21"/>
-<wire x1="-5" y1="3.27" x2="-5" y2="-0.73" width="0.2032" layer="21"/>
-<wire x1="3" y1="5.27" x2="-3" y2="5.27" width="0.2032" layer="21"/>
-<pad name="SHELL" x="0" y="1.27" drill="2.3" rot="R270"/>
-<pad name="PIN" x="-0.030625" y="-2.985625" drill="2.3" rot="R270"/>
-<hole x="4.25" y="4.37" drill="2.1"/>
-<hole x="-4.25" y="4.37" drill="2.1"/>
-</package>
-<package name="736880-49">
-<description>&lt;b&gt;Cinch Einbauprintbuchse&lt;/b&gt;, ( RCA Jack ) RM 7.5 x 10 mm&lt;p&gt;
-Artikel-Nr.: 736880 - 49&lt;br&gt;
-Source: http://www.produktinfo.conrad.com/datenblaetter/725000-749999/736880-da-01-de-Cinch-Einbaubuchse.pdf</description>
-<wire x1="6.08" y1="-5.5" x2="2.08" y2="-5.5" width="0.4096" layer="51"/>
-<wire x1="5.58" y1="5.5" x2="2.08" y2="5.5" width="0.4096" layer="51"/>
-<wire x1="-4.92" y1="3" x2="-4.92" y2="-3" width="0.4096" layer="51"/>
-<wire x1="2.08" y1="5.5" x2="-4.92" y2="5.5" width="0.4096" layer="21"/>
-<wire x1="-4.92" y1="5.5" x2="-4.92" y2="4.25" width="0.4096" layer="21"/>
-<wire x1="-4.92" y1="4.25" x2="-4.92" y2="3" width="0.4096" layer="21"/>
-<wire x1="2.08" y1="-5.5" x2="-4.92" y2="-5.5" width="0.4096" layer="21"/>
-<wire x1="-4.92" y1="-5.5" x2="-4.92" y2="-4" width="0.4096" layer="21"/>
-<wire x1="-4.92" y1="-4" x2="-4.92" y2="-3" width="0.4096" layer="21"/>
-<wire x1="-5.42" y1="-3.5" x2="-11.92" y2="-3.5" width="0.4096" layer="21"/>
-<wire x1="-11.92" y1="-3.5" x2="-12.42" y2="-3" width="0.4096" layer="21" curve="-90"/>
-<wire x1="-12.42" y1="-3" x2="-12.42" y2="3.25" width="0.4096" layer="21"/>
-<wire x1="-12.42" y1="3.25" x2="-11.92" y2="3.75" width="0.4096" layer="21" curve="-90"/>
-<wire x1="-11.92" y1="3.75" x2="-5.42" y2="3.75" width="0.4096" layer="21"/>
-<wire x1="-4.92" y1="4.25" x2="-5.42" y2="3.75" width="0.4096" layer="21" curve="-90"/>
-<wire x1="-5.42" y1="-3.5" x2="-4.92" y2="-4" width="0.4096" layer="21" curve="-90"/>
-<pad name="PIN" x="-3.92" y="0" drill="2" diameter="3.81" shape="square"/>
-<pad name="SHELL" x="5.08" y="5.5" drill="2" diameter="3.81" shape="square"/>
-<pad name="SHELL@2" x="5.08" y="-5.5" drill="2" diameter="3.81" shape="square"/>
-<text x="2.54" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="2.54" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="RC-5231">
-<description>&lt;b&gt;RCA connectors according to JEITA RC-5231&lt;/b&gt;&lt;p&gt;
-RCA-Steckverbinder nach JEITA RC-5231&lt;p&gt;
-Source: RCA- Stecker 2poolig.pdf</description>
-<hole x="-3.75" y="0" drill="1.4"/>
-<hole x="3.75" y="0" drill="1.4"/>
-<hole x="0" y="-6.5" drill="1.5"/>
-<wire x1="-1.1" y1="0.7" x2="1.1" y2="0.7" width="0" layer="46"/>
-<wire x1="1.1" y1="0.7" x2="1.1" y2="-0.7" width="0" layer="46"/>
-<wire x1="1.1" y1="-0.7" x2="-1.1" y2="-0.7" width="0" layer="46"/>
-<wire x1="-1.1" y1="-0.7" x2="-1.1" y2="0.7" width="0" layer="46"/>
-<pad name="SHELL" x="0" y="0" drill="1.4" diameter="1.778"/>
-<polygon width="0.2" layer="1">
-<vertex x="1" y="-1.025"/>
-<vertex x="-0.95" y="-1.025" curve="-90"/>
-<vertex x="-1.45" y="-0.525"/>
-<vertex x="-1.45" y="0.525" curve="-90"/>
-<vertex x="-0.95" y="1.025"/>
-<vertex x="1" y="1.025" curve="-90"/>
-<vertex x="1.5" y="0.525"/>
-<vertex x="1.5" y="-0.525" curve="-90"/>
-</polygon>
-<polygon width="0.2" layer="16">
-<vertex x="1" y="-1.025"/>
-<vertex x="-0.95" y="-1.025" curve="-90"/>
-<vertex x="-1.45" y="-0.525"/>
-<vertex x="-1.45" y="0.525" curve="-90"/>
-<vertex x="-0.95" y="1.025"/>
-<vertex x="1" y="1.025" curve="-90"/>
-<vertex x="1.5" y="0.525"/>
-<vertex x="1.5" y="-0.525" curve="-90"/>
-</polygon>
-<wire x1="5.8" y1="-6.9" x2="4.8" y2="-6.9" width="0" layer="46"/>
-<wire x1="4.8" y1="-6.9" x2="4.8" y2="-9.1" width="0" layer="46"/>
-<wire x1="4.8" y1="-9.1" x2="5.8" y2="-9.1" width="0" layer="46"/>
-<wire x1="5.8" y1="-9.1" x2="5.8" y2="-6.9" width="0" layer="46"/>
-<pad name="PIN" x="5.3" y="-8" drill="1.4" diameter="1.778" rot="R180"/>
-<polygon width="0.2" layer="1">
-<vertex x="4.275" y="-7"/>
-<vertex x="4.275" y="-8.95" curve="90"/>
-<vertex x="4.775" y="-9.45"/>
-<vertex x="5.825" y="-9.45" curve="90"/>
-<vertex x="6.325" y="-8.95"/>
-<vertex x="6.325" y="-7" curve="90"/>
-<vertex x="5.825" y="-6.5"/>
-<vertex x="4.775" y="-6.5" curve="90"/>
-</polygon>
-<polygon width="0.2" layer="16">
-<vertex x="4.275" y="-7"/>
-<vertex x="4.275" y="-8.95" curve="90"/>
-<vertex x="4.775" y="-9.45"/>
-<vertex x="5.825" y="-9.45" curve="90"/>
-<vertex x="6.325" y="-8.95"/>
-<vertex x="6.325" y="-7" curve="90"/>
-<vertex x="5.825" y="-6.5"/>
-<vertex x="4.775" y="-6.5" curve="90"/>
-</polygon>
-<wire x1="-4.9" y1="3.9" x2="4.9" y2="3.9" width="0.2032" layer="21"/>
-<wire x1="4.9" y1="3.9" x2="4.9" y2="-9.895" width="0.2032" layer="21"/>
-<wire x1="4.9" y1="-9.895" x2="-4.9" y2="-9.895" width="0.2032" layer="21"/>
-<wire x1="-4.9" y1="-9.895" x2="-4.9" y2="3.9" width="0.2032" layer="21"/>
-<wire x1="-4.05" y1="4" x2="-4.05" y2="12.4" width="0.2032" layer="21"/>
-<wire x1="-4.05" y1="12.4" x2="-3.55" y2="12.9" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-3.55" y1="12.9" x2="3.55" y2="12.9" width="0.2032" layer="21"/>
-<wire x1="3.55" y1="12.9" x2="4.05" y2="12.4" width="0.2032" layer="21" curve="-90"/>
-<wire x1="4.05" y1="12.4" x2="4.05" y2="4" width="0.2032" layer="21"/>
-<text x="-4.445" y="-12.065" size="1.27" layer="25">&gt;NAME</text>
-<text x="-5.715" y="-9.525" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-</package>
-<package name="WBTOR1">
-<description>&lt;b&gt;RCA connectors according to JEITA RC-5231&lt;/b&gt; Cinch&lt;p&gt;
-RCA-Einbaukupplung nach JEITA RC-5231, abgewinkelte Ausführung&lt;br&gt;
-Source: http://www.lumberg.de/Produkte/PDFs/WBTOR1.pdf</description>
-<wire x1="-4.9" y1="-0.1" x2="4.9" y2="-0.1" width="0.2032" layer="21"/>
-<wire x1="4.9" y1="-0.1" x2="4.9" y2="-13.9" width="0.2032" layer="51"/>
-<wire x1="-4.9" y1="-0.1" x2="-4.9" y2="-13.9" width="0.2032" layer="21"/>
-<wire x1="-4.05" y1="0" x2="-4.05" y2="8.4" width="0.2032" layer="21"/>
-<wire x1="-4.05" y1="8.4" x2="-3.55" y2="8.9" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-3.55" y1="8.9" x2="3.55" y2="8.9" width="0.2032" layer="21"/>
-<wire x1="3.55" y1="8.9" x2="4.05" y2="8.4" width="0.2032" layer="21" curve="-90"/>
-<wire x1="4.05" y1="8.4" x2="4.05" y2="0" width="0.2032" layer="21"/>
-<wire x1="-4.9" y1="-13.9" x2="4.9" y2="-13.9" width="0.2032" layer="51"/>
-<wire x1="-4.9" y1="-13.9" x2="3.9" y2="-13.9" width="0.2032" layer="21"/>
-<wire x1="4.9" y1="-0.1" x2="4.9" y2="-9.4" width="0.2032" layer="21"/>
-<wire x1="-1.1" y1="-4" x2="-0.4" y2="-3.3" width="0" layer="46" curve="-90"/>
-<wire x1="-0.4" y1="-3.3" x2="0.4" y2="-3.3" width="0" layer="46"/>
-<wire x1="0.4" y1="-3.3" x2="1.1" y2="-4" width="0" layer="46" curve="-90"/>
-<wire x1="1.1" y1="-4" x2="0.4" y2="-4.7" width="0" layer="46" curve="-90"/>
-<wire x1="0.4" y1="-4.7" x2="-0.4" y2="-4.7" width="0" layer="46"/>
-<wire x1="-0.4" y1="-4.7" x2="-1.1" y2="-4" width="0" layer="46" curve="-90"/>
-<wire x1="5.3" y1="-13.1" x2="4.8" y2="-12.6" width="0" layer="46" curve="-90"/>
-<wire x1="4.8" y1="-12.6" x2="4.8" y2="-11.4" width="0" layer="46"/>
-<wire x1="4.8" y1="-11.4" x2="5.3" y2="-10.9" width="0" layer="46" curve="-90"/>
-<wire x1="5.3" y1="-10.9" x2="5.8" y2="-11.4" width="0" layer="46" curve="-90"/>
-<wire x1="5.8" y1="-11.4" x2="5.8" y2="-12.6" width="0" layer="46"/>
-<wire x1="5.8" y1="-12.6" x2="5.3" y2="-13.1" width="0" layer="46" curve="-90"/>
-<pad name="SHELL" x="0" y="-4" drill="1.4" diameter="2.2" shape="long"/>
-<pad name="PIN" x="5.3" y="-12" drill="1" diameter="2.2" shape="long" rot="R90"/>
-<text x="-5.715" y="-13.97" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="8.255" y="-13.97" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<hole x="-3.75" y="-4" drill="1.4"/>
-<hole x="3.75" y="-4" drill="1.4"/>
-<hole x="0" y="-10.5" drill="1.5"/>
 </package>
 </packages>
 <symbols>
@@ -3447,16 +3146,6 @@ Source: http://www.lumberg.de/Produkte/PDFs/WBTOR1.pdf</description>
 <pin name="B" x="-2.54" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 <pin name="E" x="2.54" y="-5.08" visible="off" length="short" direction="pas" swaplevel="3" rot="R90"/>
 <pin name="C" x="2.54" y="5.08" visible="off" length="short" direction="pas" swaplevel="2" rot="R270"/>
-</symbol>
-<symbol name="RCA2PIN">
-<wire x1="-2.54" y1="-0.889" x2="-2.54" y2="0.889" width="0.254" layer="94" curve="180" cap="flat"/>
-<wire x1="0" y1="-2.54" x2="0" y2="-0.635" width="0.1524" layer="94"/>
-<wire x1="-1.524" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
-<circle x="0" y="0" radius="0.635" width="0.1524" layer="94"/>
-<text x="-1.524" y="1.27" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<pin name="2" x="2.54" y="-2.54" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -5074,100 +4763,6 @@ high speed (Philips)</description>
 <connect gate="G$1" pin="B" pad="B"/>
 <connect gate="G$1" pin="C" pad="C"/>
 <connect gate="G$1" pin="E" pad="E"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="2N4401">
-<description>2N4401 NPN transistor</description>
-<gates>
-<gate name="G$1" symbol="NPN" x="-2.54" y="0"/>
-</gates>
-<devices>
-<device name="" package="TO92-EBC">
-<connects>
-<connect gate="G$1" pin="B" pad="B"/>
-<connect gate="G$1" pin="C" pad="C"/>
-<connect gate="G$1" pin="E" pad="E"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="RCA2PIN" prefix="X">
-<description>Female Cinch &lt;B&gt;CONNECTOR&lt;/B&gt; ( RCA Jack )</description>
-<gates>
-<gate name="B" symbol="RCA2PIN" x="2.54" y="0" swaplevel="1"/>
-</gates>
-<devices>
-<device name="A1" package="TOBU3">
-<connects>
-<connect gate="B" pin="1" pad="PIN"/>
-<connect gate="B" pin="2" pad="SHELL SHELL@1 SHELL@2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MF" value="FARNELL" constant="no"/>
-<attribute name="MPN" value="TOBU 3" constant="no"/>
-<attribute name="OC_FARNELL" value="592791" constant="no"/>
-<attribute name="OC_NEWARK" value="06WX5914" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="N1" package="DX1">
-<connects>
-<connect gate="B" pin="1" pad="1"/>
-<connect gate="B" pin="2" pad="2 2@1 2@2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="N2" package="DX2">
-<connects>
-<connect gate="B" pin="1" pad="PIN"/>
-<connect gate="B" pin="2" pad="SHELL"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="N3" package="DX3">
-<connects>
-<connect gate="B" pin="1" pad="PIN"/>
-<connect gate="B" pin="2" pad="SHELL"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="A2" package="736880-49">
-<connects>
-<connect gate="B" pin="1" pad="PIN"/>
-<connect gate="B" pin="2" pad="SHELL SHELL@2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="A3" package="RC-5231">
-<connects>
-<connect gate="B" pin="1" pad="PIN"/>
-<connect gate="B" pin="2" pad="SHELL"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="A4" package="WBTOR1">
-<connects>
-<connect gate="B" pin="1" pad="PIN"/>
-<connect gate="B" pin="2" pad="SHELL"/>
 </connects>
 <technologies>
 <technology name=""/>

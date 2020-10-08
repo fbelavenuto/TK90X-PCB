@@ -1368,8 +1368,8 @@ Source: Digi-Key, subd.pdf</description>
 <wire x1="3.175" y1="3.81" x2="3.175" y2="0" width="0" layer="20"/>
 <wire x1="3.175" y1="0" x2="-2.8575" y2="0" width="0" layer="20"/>
 <wire x1="-2.8575" y1="0" x2="-2.8575" y2="3.81" width="0" layer="20"/>
-<circle x="-12.5095" y="0" radius="1.79605" width="0.0254" layer="20"/>
-<circle x="12.5222" y="0" radius="1.79605" width="0.0254" layer="20"/>
+<hole x="-12.54125" y="0" drill="3.556"/>
+<hole x="12.54125" y="0" drill="3.556"/>
 </package>
 <package name="M09D">
 <description>&lt;b&gt;SUB-D&lt;/b&gt;</description>
@@ -23912,6 +23912,7 @@ Solder type</description>
 <part name="P+45" library="supply1" deviceset="+12V" device=""/>
 <part name="J1" library="jump-0r-smd" deviceset="0R-JUMP" device="B"/>
 <part name="P+46" library="supply1" deviceset="+5V" device=""/>
+<part name="J5" library="jumper" deviceset="SJ" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -24019,6 +24020,7 @@ Solder type</description>
 <text x="-414.02" y="99.06" size="1.778" layer="97" font="vector">Notas:</text>
 <text x="-414.02" y="96.52" size="1.778" layer="97" font="vector"># Diodos 1N4148 exceto Zeners (D21,D24)  e Varicap (D28)</text>
 <text x="-144.78" y="414.02" size="1.778" layer="96" rot="R90">8x1N4148</text>
+<text x="370.84" y="7.62" size="5.08" layer="97">FBLabs rev 5</text>
 </plain>
 <instances>
 <instance part="IC2" gate="G$1" x="-317.5" y="304.8"/>
@@ -24512,9 +24514,9 @@ Solder type</description>
 <instance part="P+21" gate="1" x="-147.32" y="170.18" smashed="yes">
 <attribute name="VALUE" x="-149.86" y="170.18" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="EAR" gate="G$1" x="-7.62" y="195.58" smashed="yes" rot="MR0">
-<attribute name="NAME" x="-5.08" y="199.644" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="-7.62" y="191.008" size="1.778" layer="96" rot="MR180"/>
+<instance part="EAR" gate="G$1" x="20.32" y="195.58" smashed="yes" rot="MR0">
+<attribute name="NAME" x="22.86" y="199.644" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="20.32" y="191.008" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="R41" gate="G$1" x="-71.12" y="190.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="-73.914" y="195.0974" size="1.778" layer="95" rot="R180"/>
@@ -24532,7 +24534,7 @@ Solder type</description>
 <instance part="GND20" gate="1" x="-71.12" y="182.88"/>
 <instance part="GND21" gate="1" x="-22.86" y="182.88"/>
 <instance part="GND22" gate="1" x="-60.96" y="182.88"/>
-<instance part="GND23" gate="1" x="-10.16" y="182.88"/>
+<instance part="GND23" gate="1" x="17.78" y="182.88"/>
 <instance part="P+22" gate="1" x="-71.12" y="213.36" smashed="yes">
 <attribute name="VALUE" x="-73.66" y="213.36" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -25068,6 +25070,10 @@ Solder type</description>
 <instance part="P+46" gate="1" x="-332.74" y="327.66" smashed="yes">
 <attribute name="VALUE" x="-330.2" y="330.2" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="J5" gate="1" x="2.54" y="195.58" smashed="yes">
+<attribute name="NAME" x="2.032" y="191.262" size="1.778" layer="95"/>
+<attribute name="VALUE" x="0" y="191.77" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -25181,7 +25187,7 @@ Solder type</description>
 <pinref part="GND21" gate="1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="-10.16" y1="193.04" x2="-10.16" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="193.04" x2="17.78" y2="185.42" width="0.1524" layer="91"/>
 <pinref part="EAR" gate="G$1" pin="SHIELD"/>
 <pinref part="GND23" gate="1" pin="GND"/>
 </segment>
@@ -27571,18 +27577,18 @@ Solder type</description>
 </net>
 <net name="N$16" class="0">
 <segment>
-<wire x1="-10.16" y1="198.12" x2="-12.7" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="-12.7" y1="198.12" x2="-22.86" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="198.12" x2="-5.08" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="198.12" x2="-22.86" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="198.12" x2="-22.86" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="-30.48" y1="198.12" x2="-22.86" y2="198.12" width="0.1524" layer="91"/>
 <junction x="-22.86" y="198.12"/>
 <pinref part="EAR" gate="G$1" pin="TIP"/>
 <pinref part="R70" gate="G$1" pin="2"/>
-<pinref part="EAR" gate="G$1" pin="NC"/>
-<wire x1="-10.16" y1="195.58" x2="-12.7" y2="195.58" width="0.1524" layer="91"/>
-<wire x1="-12.7" y1="195.58" x2="-12.7" y2="198.12" width="0.1524" layer="91"/>
-<junction x="-12.7" y="198.12"/>
 <pinref part="C5" gate="G$1" pin="-"/>
+<pinref part="J5" gate="1" pin="1"/>
+<wire x1="-2.54" y1="195.58" x2="-5.08" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="195.58" x2="-5.08" y2="198.12" width="0.1524" layer="91"/>
+<junction x="-5.08" y="198.12"/>
 </segment>
 </net>
 <net name="!ULAINT" class="0">
@@ -28919,10 +28925,15 @@ Solder type</description>
 <pinref part="C2" gate="G$1" pin="+"/>
 <wire x1="-381" y1="129.54" x2="-381" y2="134.62" width="0.1524" layer="91"/>
 <junction x="-381" y="134.62"/>
-<wire x1="-391.16" y1="134.62" x2="-381" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="-391.16" y1="134.62" x2="-388.62" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="P+42" gate="1" pin="V+"/>
+<wire x1="-388.62" y1="134.62" x2="-381" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="-370.84" y1="137.16" x2="-370.84" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="X2" gate="G$1" pin="TIP"/>
+<pinref part="X2" gate="G$1" pin="NC"/>
+<wire x1="-391.16" y1="132.08" x2="-388.62" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="-388.62" y1="132.08" x2="-388.62" y2="134.62" width="0.1524" layer="91"/>
+<junction x="-388.62" y="134.62"/>
 </segment>
 </net>
 <net name="VDD" class="1">
@@ -29096,6 +29107,13 @@ Solder type</description>
 <pinref part="IC2" gate="G$1" pin="!PGM"/>
 <wire x1="-335.28" y1="312.42" x2="-337.82" y2="312.42" width="0.1524" layer="91"/>
 <wire x1="-337.82" y1="312.42" x2="-337.82" y2="304.8" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$88" class="0">
+<segment>
+<pinref part="EAR" gate="G$1" pin="NC"/>
+<pinref part="J5" gate="1" pin="2"/>
+<wire x1="17.78" y1="195.58" x2="7.62" y2="195.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

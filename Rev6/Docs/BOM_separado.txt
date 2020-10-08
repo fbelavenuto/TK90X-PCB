@@ -54,7 +54,6 @@ C55  100n           C-EU050-024X044 C050-024X044 CAPACITOR, European symbol
 C56  47p            C-EU050-024X044 C050-024X044 CAPACITOR, European symbol
 C57  1n             C-EU050-024X044 C050-024X044 CAPACITOR, European symbol
 C58  220u           CPOL-EUE5-6     E5-6         POLARIZED CAPACITOR, European symbol
-D1   1N4148         DDO35-12        DO35-12      Diodo
 D2   1N4148         DDO35-12        DO35-12      Diodo
 D3   1N4148         DDO35-12        DO35-12      Diodo
 D4   1N4148         DDO35-12        DO35-12      Diodo
@@ -92,7 +91,7 @@ IC6  74LS157        74S157N         DIL16        Quadruple 2-line to 1-line data
 IC7  74LS157        74S157N         DIL16        Quadruple 2-line to 1-line data SELECTOR/MULTIPLEXER
 IC8  74LS157        74S157N         DIL16        Quadruple 2-line to 1-line data SELECTOR/MULTIPLEXER
 IC9  74LS157        74S157N         DIL16        Quadruple 2-line to 1-line data SELECTOR/MULTIPLEXER
-IC10 74LS365N       74LS365N        DIL16        Hex BUS DRIVER, 3-state
+IC10 74LS244N       74LS244N        DIL20        Octal BUFFER and LINE DRIVER, 3-state
 IC11 LM1886         LM1886N         DIL20
 IC12 LM1889         LM1889          DIL18
 IC13 4116           MK4516          DIL16

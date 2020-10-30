@@ -202,17 +202,6 @@ R73_      3K3            R-EU_0207/12    0207/12      RESISTOR, European symbol
 R74       10K            R-EU_0207/5V    0207/5V      RESISTOR, European symbol
 R74_      470            R-EU_0207/12    0207/12      RESISTOR, European symbol
 R75       10K            R-EU_0207/12    0207/12      RESISTOR, European symbol
-TP1       TPSQPAD1-13    TPSQPAD1-13     P1-13        Test pad
-TP2       TPSQPAD1-13    TPSQPAD1-13     P1-13        Test pad
-TP3       TPSQPAD1-13    TPSQPAD1-13     P1-13        Test pad
-TP4       TPSQPAD1-13    TPSQPAD1-13     P1-13        Test pad
-TP5       TPSQPAD1-13    TPSQPAD1-13     P1-13        Test pad
-TP6       TPSQPAD1-13    TPSQPAD1-13     P1-13        Test pad
-TP7       TPSQPAD1-13    TPSQPAD1-13     P1-13        Test pad
-TP8       TPSQPAD1-13    TPSQPAD1-13     P1-13        Test pad
-TP9       TPSQPAD1-13    TPSQPAD1-13     P1-13        Test pad
-TP10      TPSQPAD1-13    TPSQPAD1-13     P1-13        Test pad
-U$1       TK90_EDGE      TK90_EDGE       TK-EDGE
 VIDEO(RF) RF             TPPAD1-13       P1-13        Test pad
 X2        POWER          JACK-MONO       MONO         FEMALE PRINT CONNECTOR
 XTAL      14.3044MHz     CRYSTALHC49S    HC49/S       CRYSTAL

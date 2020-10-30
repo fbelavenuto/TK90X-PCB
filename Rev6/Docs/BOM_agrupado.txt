@@ -1,7 +1,5 @@
 Qty Value          Device          Package      Parts                                                                                                                                               Description
 1                  J2X1MM          03C          JP                                                                                                                                                  Jumper switch 2 x 2.5 mm
-3                  SJ              SJ           J3, J4, J5                                                                                                                                          SMD solder JUMPER
-2   0R-JUMPB       0R-JUMPB        B0R-JMP      J1, J2                                                                                                                                              SMD 0R 0805 Jumper
 2   100            R-EU_0207/12    0207/12      R47, R68                                                                                                                                            RESISTOR, European symbol
 3   100            R-EU_0207/5V    0207/5V      R42, R69, R70                                                                                                                                       RESISTOR, European symbol
 30  100n           C-EU050-024X044 C050-024X044 C3, C12, C13, C14, C15, C16, C17, C18, C19, C20, C21, C22, C23, C24, C25, C26, C27, C28, C29, C30, C31, C32, C33, C36, C43, C48, C50, C51, C54, C55 CAPACITOR, European symbol
@@ -67,8 +65,6 @@ Qty Value          Device          Package      Parts                           
 1   ROM            25128           DIL28        IC2
 1   TECLADO        CON-TECL-5      FE05-1       KB1                                                                                                                                                 FEMALE HEADER
 1   TECLADO        CON-TECL-8      FE08         KB2                                                                                                                                                 FEMALE HEADER
-1   TK90_EDGE      TK90_EDGE       TK-EDGE      U$1
-10  TPSQPAD1-13    TPSQPAD1-13     P1-13        TP1, TP2, TP3, TP4, TP5, TP6, TP7, TP8, TP9, TP10                                                                                                   Test pad
 1   ULA TK90       ULA-TK90        DIL40        IC3
 1   Varicap        VARICAP-200     D200         D25_
 1   Z80            Z80CPU          DIL40        IC1                                                                                                                                                 Z80 FAMILY DEVICE

@@ -174,7 +174,7 @@ R45  470            R-EU_0207/12    0207/12      RESISTOR, European symbol
 R46  10K            R-EU_0207/12    0207/12      RESISTOR, European symbol
 R47  100            R-EU_0207/12    0207/12      RESISTOR, European symbol
 R48  220            R-EU_0207/12    0207/12      RESISTOR, European symbol
-R49  1K             R-EU_0207/12    0207/12      RESISTOR, European symbol
+R49  4K7            R-EU_0207/12    0207/12      RESISTOR, European symbol
 R50  1K             R-EU_0207/12    0207/12      RESISTOR, European symbol
 R51  4K7            R-EU_0207/12    0207/12      RESISTOR, European symbol
 R53  47K            R-EU_0207/12    0207/12      RESISTOR, European symbol

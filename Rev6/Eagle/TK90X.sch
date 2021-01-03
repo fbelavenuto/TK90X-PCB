@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -23802,7 +23803,7 @@ Solder type</description>
 <part name="R35" library="rcl" deviceset="R-EU_" device="0207/12" value="4K7"/>
 <part name="R45" library="rcl" deviceset="R-EU_" device="0207/12" value="470"/>
 <part name="R48" library="rcl" deviceset="R-EU_" device="0207/12" value="220"/>
-<part name="R49" library="rcl" deviceset="R-EU_" device="0207/12" value="1K"/>
+<part name="R49" library="rcl" deviceset="R-EU_" device="0207/12" value="4K7"/>
 <part name="R50" library="rcl" deviceset="R-EU_" device="0207/12" value="1K"/>
 <part name="R51" library="rcl" deviceset="R-EU_" device="0207/12" value="4K7"/>
 <part name="P+13" library="supply1" deviceset="+5V" device=""/>
@@ -24052,6 +24053,7 @@ Solder type</description>
 <part name="P+46" library="supply1" deviceset="+5V" device=""/>
 <part name="IC10" library="tk90" deviceset="74*244" device="N" technology="LS"/>
 <part name="P+47" library="supply1" deviceset="+5V" device=""/>
+<part name="J5" library="jumper" deviceset="SJ" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -24162,12 +24164,18 @@ Solder type</description>
 <text x="370.84" y="7.62" size="5.08" layer="97">FBLabs rev 6</text>
 </plain>
 <instances>
-<instance part="IC2" gate="G$1" x="-317.5" y="304.8"/>
+<instance part="IC2" gate="G$1" x="-317.5" y="304.8" smashed="yes">
+<attribute name="NAME" x="-332.74" y="290.195" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-332.74" y="292.1" size="1.778" layer="96"/>
+</instance>
 <instance part="R1" gate="G$1" x="-73.66" y="243.84" smashed="yes" rot="R180">
 <attribute name="NAME" x="-77.724" y="245.8974" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-67.31" y="244.094" size="1.778" layer="96"/>
 </instance>
-<instance part="C57" gate="G$1" x="-86.36" y="193.04"/>
+<instance part="C57" gate="G$1" x="-86.36" y="193.04" smashed="yes">
+<attribute name="NAME" x="-84.836" y="193.421" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-84.836" y="188.341" size="1.778" layer="96"/>
+</instance>
 <instance part="C9" gate="G$1" x="-381" y="198.12" smashed="yes" rot="R90">
 <attribute name="NAME" x="-383.54" y="198.755" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-386.08" y="195.707" size="1.778" layer="96"/>
@@ -24192,7 +24200,10 @@ Solder type</description>
 <attribute name="NAME" x="-324.0786" y="273.05" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-319.278" y="265.43" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C17" gate="G$1" x="-411.48" y="396.24"/>
+<instance part="C17" gate="G$1" x="-411.48" y="396.24" smashed="yes">
+<attribute name="NAME" x="-409.956" y="396.621" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-409.956" y="391.541" size="1.778" layer="96"/>
+</instance>
 <instance part="C18" gate="G$1" x="-259.08" y="281.94" smashed="yes">
 <attribute name="NAME" x="-265.176" y="282.321" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-265.176" y="277.241" size="1.778" layer="96"/>
@@ -24201,7 +24212,10 @@ Solder type</description>
 <attribute name="NAME" x="-356.87" y="313.4614" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-356.87" y="310.642" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R27" gate="G$1" x="-312.42" y="457.2"/>
+<instance part="R27" gate="G$1" x="-312.42" y="457.2" smashed="yes">
+<attribute name="NAME" x="-316.23" y="458.6986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-316.23" y="453.898" size="1.778" layer="96"/>
+</instance>
 <instance part="R28" gate="G$1" x="-238.76" y="431.8" smashed="yes">
 <attribute name="NAME" x="-242.57" y="433.2986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-242.57" y="428.498" size="1.778" layer="96"/>
@@ -24210,7 +24224,10 @@ Solder type</description>
 <attribute name="NAME" x="-412.75" y="412.5214" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-412.75" y="409.702" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R31" gate="G$1" x="-411.48" y="360.68"/>
+<instance part="R31" gate="G$1" x="-411.48" y="360.68" smashed="yes">
+<attribute name="NAME" x="-415.29" y="362.1786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-415.29" y="357.378" size="1.778" layer="96"/>
+</instance>
 <instance part="R18" gate="G$1" x="-327.66" y="269.24" smashed="yes" rot="R90">
 <attribute name="NAME" x="-329.1586" y="273.05" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-324.358" y="265.43" size="1.778" layer="96" rot="R90"/>
@@ -24239,70 +24256,80 @@ Solder type</description>
 <attribute name="NAME" x="-359.6386" y="273.05" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-354.838" y="265.43" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND1" gate="1" x="-411.48" y="388.62"/>
+<instance part="GND1" gate="1" x="-411.48" y="388.62" smashed="yes">
+<attribute name="VALUE" x="-414.02" y="386.08" size="1.778" layer="96"/>
+</instance>
 <instance part="P+1" gate="1" x="-396.24" y="421.64" smashed="yes">
 <attribute name="VALUE" x="-396.24" y="424.18" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="P+2" gate="1" x="-411.48" y="421.64" smashed="yes">
 <attribute name="VALUE" x="-411.48" y="424.18" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND2" gate="1" x="-403.86" y="406.4"/>
-<instance part="U$1" gate="G$1" x="-281.94" y="459.74"/>
-<instance part="U$1" gate="G$2" x="-281.94" y="393.7"/>
-<instance part="U$1" gate="G$3" x="-325.12" y="134.62"/>
-<instance part="U$1" gate="G$4" x="-360.68" y="134.62"/>
-<instance part="U$1" gate="G$5" x="-360.68" y="114.3"/>
-<instance part="U$1" gate="G$6" x="-355.6" y="114.3"/>
-<instance part="U$1" gate="G$7" x="-281.94" y="157.48"/>
-<instance part="U$1" gate="G$8" x="-281.94" y="363.22"/>
-<instance part="U$1" gate="G$9" x="-281.94" y="365.76"/>
-<instance part="U$1" gate="G$10" x="-281.94" y="368.3"/>
-<instance part="U$1" gate="G$11" x="-281.94" y="370.84"/>
-<instance part="U$1" gate="G$12" x="-281.94" y="457.2"/>
-<instance part="U$1" gate="G$13" x="-350.52" y="114.3"/>
-<instance part="U$1" gate="G$14" x="-398.78" y="312.42"/>
-<instance part="U$1" gate="G$15" x="-398.78" y="309.88"/>
-<instance part="U$1" gate="G$16" x="-398.78" y="307.34"/>
-<instance part="U$1" gate="G$17" x="-398.78" y="304.8"/>
-<instance part="U$1" gate="G$18" x="-398.78" y="345.44"/>
-<instance part="U$1" gate="G$19" x="-398.78" y="398.78"/>
-<instance part="U$1" gate="G$20" x="-281.94" y="381"/>
-<instance part="U$1" gate="G$21" x="-281.94" y="378.46"/>
-<instance part="U$1" gate="G$22" x="-281.94" y="375.92"/>
-<instance part="U$1" gate="G$23" x="-281.94" y="373.38"/>
-<instance part="U$1" gate="G$24" x="-342.9" y="299.72"/>
-<instance part="U$1" gate="G$25" x="-398.78" y="340.36"/>
-<instance part="U$1" gate="G$26" x="-281.94" y="386.08"/>
-<instance part="U$1" gate="G$27" x="-281.94" y="391.16"/>
-<instance part="U$1" gate="G$28" x="-281.94" y="462.28"/>
-<instance part="U$1" gate="G$29" x="-281.94" y="396.24"/>
-<instance part="U$1" gate="G$30" x="-281.94" y="261.62"/>
-<instance part="U$1" gate="G$31" x="287.02" y="403.86"/>
-<instance part="U$1" gate="G$32" x="-281.94" y="243.84"/>
-<instance part="U$1" gate="G$33" x="-281.94" y="246.38"/>
-<instance part="U$1" gate="G$34" x="-281.94" y="248.92"/>
-<instance part="U$1" gate="G$35" x="-281.94" y="259.08"/>
-<instance part="U$1" gate="G$36" x="-281.94" y="256.54"/>
-<instance part="U$1" gate="G$37" x="-281.94" y="251.46"/>
-<instance part="U$1" gate="G$38" x="-281.94" y="254"/>
-<instance part="U$1" gate="G$39" x="-281.94" y="160.02"/>
-<instance part="U$1" gate="G$40" x="-398.78" y="360.68"/>
-<instance part="U$1" gate="G$41" x="-398.78" y="335.28"/>
-<instance part="U$1" gate="G$42" x="-281.94" y="464.82"/>
-<instance part="U$1" gate="G$43" x="-322.58" y="457.2"/>
-<instance part="U$1" gate="G$44" x="-281.94" y="467.36"/>
-<instance part="U$1" gate="G$45" x="-281.94" y="469.9"/>
-<instance part="U$1" gate="G$46" x="116.84" y="114.3"/>
-<instance part="U$1" gate="G$47" x="-398.78" y="375.92"/>
-<instance part="U$1" gate="G$48" x="190.5" y="119.38"/>
-<instance part="U$1" gate="G$49" x="132.08" y="119.38"/>
-<instance part="U$1" gate="G$50" x="-398.78" y="330.2"/>
-<instance part="U$1" gate="G$51" x="-398.78" y="325.12"/>
-<instance part="U$1" gate="G$52" x="-281.94" y="383.54"/>
-<instance part="U$1" gate="G$53" x="-281.94" y="388.62"/>
-<instance part="U$1" gate="G$54" x="-398.78" y="314.96"/>
-<instance part="R30" gate="G$1" x="-411.48" y="345.44"/>
-<instance part="R32" gate="G$1" x="-411.48" y="375.92"/>
+<instance part="GND2" gate="1" x="-403.86" y="406.4" smashed="yes">
+<attribute name="VALUE" x="-406.4" y="403.86" size="1.778" layer="96"/>
+</instance>
+<instance part="U$1" gate="G$1" x="-281.94" y="459.74" smashed="yes"/>
+<instance part="U$1" gate="G$2" x="-281.94" y="393.7" smashed="yes"/>
+<instance part="U$1" gate="G$3" x="-325.12" y="134.62" smashed="yes"/>
+<instance part="U$1" gate="G$4" x="-360.68" y="134.62" smashed="yes"/>
+<instance part="U$1" gate="G$5" x="-360.68" y="114.3" smashed="yes"/>
+<instance part="U$1" gate="G$6" x="-355.6" y="114.3" smashed="yes"/>
+<instance part="U$1" gate="G$7" x="-281.94" y="157.48" smashed="yes"/>
+<instance part="U$1" gate="G$8" x="-281.94" y="363.22" smashed="yes"/>
+<instance part="U$1" gate="G$9" x="-281.94" y="365.76" smashed="yes"/>
+<instance part="U$1" gate="G$10" x="-281.94" y="368.3" smashed="yes"/>
+<instance part="U$1" gate="G$11" x="-281.94" y="370.84" smashed="yes"/>
+<instance part="U$1" gate="G$12" x="-281.94" y="457.2" smashed="yes"/>
+<instance part="U$1" gate="G$13" x="-350.52" y="114.3" smashed="yes"/>
+<instance part="U$1" gate="G$14" x="-398.78" y="312.42" smashed="yes"/>
+<instance part="U$1" gate="G$15" x="-398.78" y="309.88" smashed="yes"/>
+<instance part="U$1" gate="G$16" x="-398.78" y="307.34" smashed="yes"/>
+<instance part="U$1" gate="G$17" x="-398.78" y="304.8" smashed="yes"/>
+<instance part="U$1" gate="G$18" x="-398.78" y="345.44" smashed="yes"/>
+<instance part="U$1" gate="G$19" x="-398.78" y="398.78" smashed="yes"/>
+<instance part="U$1" gate="G$20" x="-281.94" y="381" smashed="yes"/>
+<instance part="U$1" gate="G$21" x="-281.94" y="378.46" smashed="yes"/>
+<instance part="U$1" gate="G$22" x="-281.94" y="375.92" smashed="yes"/>
+<instance part="U$1" gate="G$23" x="-281.94" y="373.38" smashed="yes"/>
+<instance part="U$1" gate="G$24" x="-342.9" y="299.72" smashed="yes"/>
+<instance part="U$1" gate="G$25" x="-398.78" y="340.36" smashed="yes"/>
+<instance part="U$1" gate="G$26" x="-281.94" y="386.08" smashed="yes"/>
+<instance part="U$1" gate="G$27" x="-281.94" y="391.16" smashed="yes"/>
+<instance part="U$1" gate="G$28" x="-281.94" y="462.28" smashed="yes"/>
+<instance part="U$1" gate="G$29" x="-281.94" y="396.24" smashed="yes"/>
+<instance part="U$1" gate="G$30" x="-281.94" y="261.62" smashed="yes"/>
+<instance part="U$1" gate="G$31" x="287.02" y="403.86" smashed="yes"/>
+<instance part="U$1" gate="G$32" x="-281.94" y="243.84" smashed="yes"/>
+<instance part="U$1" gate="G$33" x="-281.94" y="246.38" smashed="yes"/>
+<instance part="U$1" gate="G$34" x="-281.94" y="248.92" smashed="yes"/>
+<instance part="U$1" gate="G$35" x="-281.94" y="259.08" smashed="yes"/>
+<instance part="U$1" gate="G$36" x="-281.94" y="256.54" smashed="yes"/>
+<instance part="U$1" gate="G$37" x="-281.94" y="251.46" smashed="yes"/>
+<instance part="U$1" gate="G$38" x="-281.94" y="254" smashed="yes"/>
+<instance part="U$1" gate="G$39" x="-281.94" y="160.02" smashed="yes"/>
+<instance part="U$1" gate="G$40" x="-398.78" y="360.68" smashed="yes"/>
+<instance part="U$1" gate="G$41" x="-398.78" y="335.28" smashed="yes"/>
+<instance part="U$1" gate="G$42" x="-281.94" y="464.82" smashed="yes"/>
+<instance part="U$1" gate="G$43" x="-322.58" y="457.2" smashed="yes"/>
+<instance part="U$1" gate="G$44" x="-281.94" y="467.36" smashed="yes"/>
+<instance part="U$1" gate="G$45" x="-281.94" y="469.9" smashed="yes"/>
+<instance part="U$1" gate="G$46" x="116.84" y="114.3" smashed="yes"/>
+<instance part="U$1" gate="G$47" x="-398.78" y="375.92" smashed="yes"/>
+<instance part="U$1" gate="G$48" x="190.5" y="119.38" smashed="yes"/>
+<instance part="U$1" gate="G$49" x="132.08" y="119.38" smashed="yes"/>
+<instance part="U$1" gate="G$50" x="-398.78" y="330.2" smashed="yes"/>
+<instance part="U$1" gate="G$51" x="-398.78" y="325.12" smashed="yes"/>
+<instance part="U$1" gate="G$52" x="-281.94" y="383.54" smashed="yes"/>
+<instance part="U$1" gate="G$53" x="-281.94" y="388.62" smashed="yes"/>
+<instance part="U$1" gate="G$54" x="-398.78" y="314.96" smashed="yes"/>
+<instance part="R30" gate="G$1" x="-411.48" y="345.44" smashed="yes">
+<attribute name="NAME" x="-415.29" y="346.9386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-415.29" y="342.138" size="1.778" layer="96"/>
+</instance>
+<instance part="R32" gate="G$1" x="-411.48" y="375.92" smashed="yes">
+<attribute name="NAME" x="-415.29" y="377.4186" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-415.29" y="372.618" size="1.778" layer="96"/>
+</instance>
 <instance part="P+3" gate="1" x="-419.1" y="375.92" smashed="yes" rot="R90">
 <attribute name="VALUE" x="-419.1" y="378.46" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -24319,7 +24346,10 @@ Solder type</description>
 <instance part="P+6" gate="1" x="-332.74" y="444.5" smashed="yes">
 <attribute name="VALUE" x="-330.2" y="444.5" size="1.778" layer="96"/>
 </instance>
-<instance part="R26" gate="G$1" x="-347.98" y="309.88" rot="R270"/>
+<instance part="R26" gate="G$1" x="-347.98" y="309.88" smashed="yes" rot="R270">
+<attribute name="NAME" x="-346.4814" y="313.69" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="-351.282" y="313.69" size="1.778" layer="96" rot="R270"/>
+</instance>
 <instance part="D4" gate="G$1" x="-139.7" y="424.18" smashed="yes" rot="R270">
 <attribute name="NAME" x="-139.2174" y="421.64" size="1.778" layer="95" rot="R270"/>
 </instance>
@@ -24344,7 +24374,10 @@ Solder type</description>
 <instance part="D9" gate="G$1" x="-124.46" y="424.18" smashed="yes" rot="R270">
 <attribute name="NAME" x="-123.9774" y="421.64" size="1.778" layer="95" rot="R270"/>
 </instance>
-<instance part="D10" gate="G$1" x="218.44" y="474.98"/>
+<instance part="D10" gate="G$1" x="218.44" y="474.98" smashed="yes">
+<attribute name="NAME" x="215.9" y="477.52" size="1.778" layer="95"/>
+<attribute name="VALUE" x="223.52" y="472.44" size="1.778" layer="96" rot="R180"/>
+</instance>
 <instance part="D11" gate="G$1" x="-360.68" y="325.12" smashed="yes" rot="R270">
 <attribute name="NAME" x="-362.7374" y="322.58" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-362.9914" y="335.026" size="1.778" layer="96" rot="R270"/>
@@ -24361,19 +24394,37 @@ Solder type</description>
 <attribute name="NAME" x="-58.42" y="188.4426" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-58.674" y="185.3946" size="1.778" layer="96"/>
 </instance>
-<instance part="GND3" gate="1" x="-355.6" y="299.72"/>
+<instance part="GND3" gate="1" x="-355.6" y="299.72" smashed="yes">
+<attribute name="VALUE" x="-358.14" y="297.18" size="1.778" layer="96"/>
+</instance>
 <instance part="P+7" gate="1" x="-358.14" y="284.48" smashed="yes">
 <attribute name="VALUE" x="-358.14" y="287.02" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND4" gate="1" x="-401.32" y="241.3"/>
-<instance part="IC21" gate="G$1" x="-236.22" y="284.48"/>
-<instance part="IC22" gate="G$1" x="-190.5" y="284.48"/>
-<instance part="IC23" gate="G$1" x="-144.78" y="284.48"/>
-<instance part="IC24" gate="G$1" x="-99.06" y="284.48"/>
+<instance part="GND4" gate="1" x="-401.32" y="241.3" smashed="yes">
+<attribute name="VALUE" x="-403.86" y="238.76" size="1.778" layer="96"/>
+</instance>
+<instance part="IC21" gate="G$1" x="-236.22" y="284.48" smashed="yes">
+<attribute name="NAME" x="-233.68" y="283.337" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-254" y="271.78" size="1.778" layer="96"/>
+</instance>
+<instance part="IC22" gate="G$1" x="-190.5" y="284.48" smashed="yes">
+<attribute name="NAME" x="-187.96" y="283.337" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-208.28" y="271.78" size="1.778" layer="96"/>
+</instance>
+<instance part="IC23" gate="G$1" x="-144.78" y="284.48" smashed="yes">
+<attribute name="NAME" x="-142.24" y="283.337" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-162.56" y="271.78" size="1.778" layer="96"/>
+</instance>
+<instance part="IC24" gate="G$1" x="-99.06" y="284.48" smashed="yes">
+<attribute name="NAME" x="-96.52" y="283.337" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-116.84" y="271.78" size="1.778" layer="96"/>
+</instance>
 <instance part="P+8" gate="1" x="-279.4" y="309.88" smashed="yes">
 <attribute name="VALUE" x="-279.4" y="312.42" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND5" gate="1" x="-279.4" y="294.64"/>
+<instance part="GND5" gate="1" x="-279.4" y="294.64" smashed="yes">
+<attribute name="VALUE" x="-281.94" y="292.1" size="1.778" layer="96"/>
+</instance>
 <instance part="P+9" gate="1" x="-259.08" y="289.56" smashed="yes">
 <attribute name="VALUE" x="-259.08" y="292.1" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -24389,10 +24440,18 @@ Solder type</description>
 <attribute name="NAME" x="-128.016" y="282.321" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-128.016" y="277.241" size="1.778" layer="96"/>
 </instance>
-<instance part="GND6" gate="1" x="-259.08" y="274.32"/>
-<instance part="GND7" gate="1" x="-213.36" y="274.32"/>
-<instance part="GND8" gate="1" x="-167.64" y="274.32"/>
-<instance part="GND9" gate="1" x="-121.92" y="274.32"/>
+<instance part="GND6" gate="1" x="-259.08" y="274.32" smashed="yes">
+<attribute name="VALUE" x="-261.62" y="271.78" size="1.778" layer="96"/>
+</instance>
+<instance part="GND7" gate="1" x="-213.36" y="274.32" smashed="yes">
+<attribute name="VALUE" x="-215.9" y="271.78" size="1.778" layer="96"/>
+</instance>
+<instance part="GND8" gate="1" x="-167.64" y="274.32" smashed="yes">
+<attribute name="VALUE" x="-170.18" y="271.78" size="1.778" layer="96"/>
+</instance>
+<instance part="GND9" gate="1" x="-121.92" y="274.32" smashed="yes">
+<attribute name="VALUE" x="-124.46" y="271.78" size="1.778" layer="96"/>
+</instance>
 <instance part="P+10" gate="1" x="-213.36" y="289.56" smashed="yes">
 <attribute name="VALUE" x="-213.36" y="292.1" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -24470,8 +24529,12 @@ Solder type</description>
 <instance part="P+14" gate="1" x="-373.38" y="215.9" smashed="yes">
 <attribute name="VALUE" x="-373.38" y="218.44" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND10" gate="1" x="-398.78" y="175.26"/>
-<instance part="GND11" gate="1" x="-388.62" y="175.26"/>
+<instance part="GND10" gate="1" x="-398.78" y="175.26" smashed="yes">
+<attribute name="VALUE" x="-401.32" y="172.72" size="1.778" layer="96"/>
+</instance>
+<instance part="GND11" gate="1" x="-388.62" y="175.26" smashed="yes">
+<attribute name="VALUE" x="-391.16" y="172.72" size="1.778" layer="96"/>
+</instance>
 <instance part="P+15" gate="1" x="-337.82" y="215.9" smashed="yes">
 <attribute name="VALUE" x="-337.82" y="218.44" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -24481,24 +24544,48 @@ Solder type</description>
 <instance part="P+17" gate="1" x="-294.64" y="200.66" smashed="yes" rot="R90">
 <attribute name="VALUE" x="-289.56" y="198.12" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND12" gate="1" x="-254" y="424.18"/>
-<instance part="GND13" gate="1" x="-233.68" y="421.64"/>
-<instance part="GND14" gate="1" x="-218.44" y="401.32"/>
-<instance part="IC1" gate="1" x="-378.46" y="358.14"/>
-<instance part="GND15" gate="1" x="-238.76" y="355.6"/>
-<instance part="GND16" gate="1" x="-119.38" y="355.6"/>
+<instance part="GND12" gate="1" x="-254" y="424.18" smashed="yes">
+<attribute name="VALUE" x="-256.54" y="421.64" size="1.778" layer="96"/>
+</instance>
+<instance part="GND13" gate="1" x="-233.68" y="421.64" smashed="yes">
+<attribute name="VALUE" x="-236.22" y="419.1" size="1.778" layer="96"/>
+</instance>
+<instance part="GND14" gate="1" x="-218.44" y="401.32" smashed="yes">
+<attribute name="VALUE" x="-220.98" y="398.78" size="1.778" layer="96"/>
+</instance>
+<instance part="IC1" gate="1" x="-378.46" y="358.14" smashed="yes">
+<attribute name="NAME" x="-381" y="356.235" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-381" y="353.06" size="1.778" layer="96"/>
+</instance>
+<instance part="GND15" gate="1" x="-238.76" y="355.6" smashed="yes">
+<attribute name="VALUE" x="-241.3" y="353.06" size="1.778" layer="96"/>
+</instance>
+<instance part="GND16" gate="1" x="-119.38" y="355.6" smashed="yes">
+<attribute name="VALUE" x="-121.92" y="353.06" size="1.778" layer="96"/>
+</instance>
 <instance part="IC16" gate="G$1" x="58.42" y="284.48" smashed="yes">
 <attribute name="NAME" x="58.42" y="284.353" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="58.166" y="280.162" size="1.778" layer="96"/>
 </instance>
-<instance part="IC25" gate="A" x="-246.38" y="444.5"/>
-<instance part="IC25" gate="B" x="-177.8" y="416.56"/>
+<instance part="IC25" gate="A" x="-246.38" y="444.5" smashed="yes">
+<attribute name="NAME" x="-251.46" y="450.215" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-251.46" y="436.88" size="1.778" layer="96"/>
+</instance>
+<instance part="IC25" gate="B" x="-177.8" y="416.56" smashed="yes">
+<attribute name="NAME" x="-182.88" y="422.275" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-182.88" y="408.94" size="1.778" layer="96"/>
+</instance>
 <instance part="IC25" gate="C" x="-172.72" y="429.26" smashed="yes">
 <attribute name="NAME" x="-172.72" y="434.975" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-169.164" y="425.704" size="1.778" layer="96"/>
 </instance>
-<instance part="IC25" gate="D" x="-233.68" y="447.04" rot="MR180"/>
-<instance part="IC25" gate="P" x="-170.18" y="124.46"/>
+<instance part="IC25" gate="D" x="-233.68" y="447.04" smashed="yes" rot="MR180">
+<attribute name="NAME" x="-238.76" y="441.325" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="-238.76" y="454.66" size="1.778" layer="96" rot="MR180"/>
+</instance>
+<instance part="IC25" gate="P" x="-170.18" y="124.46" smashed="yes">
+<attribute name="NAME" x="-170.815" y="123.825" size="1.778" layer="95"/>
+</instance>
 <instance part="IC26" gate="A" x="-287.02" y="203.2" smashed="yes" rot="MR180">
 <attribute name="NAME" x="-287.02" y="197.485" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="-286.766" y="195.072" size="1.778" layer="96" rot="MR180"/>
@@ -24515,25 +24602,65 @@ Solder type</description>
 <attribute name="NAME" x="-274.32" y="222.377" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-274.574" y="219.964" size="1.778" layer="96"/>
 </instance>
-<instance part="IC26" gate="P" x="-162.56" y="124.46"/>
+<instance part="IC26" gate="P" x="-162.56" y="124.46" smashed="yes">
+<attribute name="NAME" x="-163.195" y="123.825" size="1.778" layer="95"/>
+</instance>
 <instance part="IC28" gate="A" x="-185.42" y="431.8" smashed="yes">
 <attribute name="NAME" x="-185.42" y="434.975" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-186.944" y="437.642" size="1.778" layer="96"/>
 </instance>
-<instance part="IC28" gate="B" x="-198.12" y="414.02"/>
-<instance part="IC28" gate="C" x="281.94" y="276.86"/>
-<instance part="IC28" gate="D" x="281.94" y="203.2"/>
-<instance part="IC28" gate="E" x="294.64" y="203.2"/>
-<instance part="IC28" gate="F" x="-398.78" y="474.98"/>
-<instance part="IC28" gate="P" x="-147.32" y="124.46"/>
-<instance part="IC5" gate="A" x="-312.42" y="205.74"/>
-<instance part="IC5" gate="B" x="-337.82" y="203.2"/>
-<instance part="IC5" gate="P" x="-215.9" y="124.46"/>
-<instance part="IC6" gate="A" x="-220.98" y="345.44" rot="R270"/>
-<instance part="IC6" gate="P" x="-208.28" y="124.46"/>
-<instance part="IC7" gate="A" x="-101.6" y="345.44" rot="R270"/>
-<instance part="IC7" gate="P" x="-200.66" y="124.46"/>
-<instance part="IC27" gate="A" x="-218.44" y="434.34"/>
+<instance part="IC28" gate="B" x="-198.12" y="414.02" smashed="yes">
+<attribute name="NAME" x="-198.12" y="417.195" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-198.12" y="408.94" size="1.778" layer="96"/>
+</instance>
+<instance part="IC28" gate="C" x="281.94" y="276.86" smashed="yes">
+<attribute name="NAME" x="281.94" y="280.035" size="1.778" layer="95"/>
+<attribute name="VALUE" x="281.94" y="271.78" size="1.778" layer="96"/>
+</instance>
+<instance part="IC28" gate="D" x="281.94" y="203.2" smashed="yes">
+<attribute name="NAME" x="281.94" y="206.375" size="1.778" layer="95"/>
+<attribute name="VALUE" x="281.94" y="198.12" size="1.778" layer="96"/>
+</instance>
+<instance part="IC28" gate="E" x="294.64" y="203.2" smashed="yes">
+<attribute name="NAME" x="294.64" y="206.375" size="1.778" layer="95"/>
+<attribute name="VALUE" x="294.64" y="198.12" size="1.778" layer="96"/>
+</instance>
+<instance part="IC28" gate="F" x="-398.78" y="474.98" smashed="yes">
+<attribute name="NAME" x="-398.78" y="478.155" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-398.78" y="469.9" size="1.778" layer="96"/>
+</instance>
+<instance part="IC28" gate="P" x="-147.32" y="124.46" smashed="yes">
+<attribute name="NAME" x="-147.955" y="123.825" size="1.778" layer="95"/>
+</instance>
+<instance part="IC5" gate="A" x="-312.42" y="205.74" smashed="yes">
+<attribute name="NAME" x="-309.88" y="211.455" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-309.88" y="198.12" size="1.778" layer="96"/>
+</instance>
+<instance part="IC5" gate="B" x="-337.82" y="203.2" smashed="yes">
+<attribute name="NAME" x="-335.28" y="208.915" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-335.28" y="195.58" size="1.778" layer="96"/>
+</instance>
+<instance part="IC5" gate="P" x="-215.9" y="124.46" smashed="yes">
+<attribute name="NAME" x="-216.535" y="123.825" size="1.778" layer="95"/>
+</instance>
+<instance part="IC6" gate="A" x="-220.98" y="345.44" smashed="yes" rot="R270">
+<attribute name="NAME" x="-205.105" y="353.06" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="-236.22" y="353.06" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="IC6" gate="P" x="-208.28" y="124.46" smashed="yes">
+<attribute name="NAME" x="-208.915" y="123.825" size="1.778" layer="95"/>
+</instance>
+<instance part="IC7" gate="A" x="-101.6" y="345.44" smashed="yes" rot="R270">
+<attribute name="NAME" x="-85.725" y="353.06" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="-116.84" y="353.06" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="IC7" gate="P" x="-200.66" y="124.46" smashed="yes">
+<attribute name="NAME" x="-201.295" y="123.825" size="1.778" layer="95"/>
+</instance>
+<instance part="IC27" gate="A" x="-218.44" y="434.34" smashed="yes">
+<attribute name="NAME" x="-220.98" y="439.42" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-220.98" y="426.72" size="1.778" layer="96"/>
+</instance>
 <instance part="IC27" gate="B" x="-251.46" y="431.8" smashed="yes">
 <attribute name="NAME" x="-252.73" y="436.626" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-253.238" y="425.704" size="1.778" layer="96"/>
@@ -24546,12 +24673,16 @@ Solder type</description>
 <attribute name="NAME" x="-342.9" y="327.66" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-348.488" y="339.09" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="IC27" gate="P" x="-154.94" y="124.46"/>
+<instance part="IC27" gate="P" x="-154.94" y="124.46" smashed="yes">
+<attribute name="NAME" x="-155.575" y="123.825" size="1.778" layer="95"/>
+</instance>
 <instance part="IC8" gate="A" x="7.62" y="345.44" smashed="yes" rot="R270">
 <attribute name="NAME" x="-2.54" y="343.535" size="1.778" layer="95"/>
 <attribute name="VALUE" x="3.048" y="341.63" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="IC8" gate="P" x="-193.04" y="124.46"/>
+<instance part="IC8" gate="P" x="-193.04" y="124.46" smashed="yes">
+<attribute name="NAME" x="-193.675" y="123.825" size="1.778" layer="95"/>
+</instance>
 <instance part="IC13" gate="G$1" x="-48.26" y="284.48" smashed="yes">
 <attribute name="NAME" x="-48.26" y="284.353" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="-48.768" y="279.908" size="1.778" layer="96"/>
@@ -24584,7 +24715,9 @@ Solder type</description>
 <attribute name="NAME" x="-48.26" y="343.535" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-42.418" y="341.376" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="IC9" gate="P" x="-185.42" y="124.46"/>
+<instance part="IC9" gate="P" x="-185.42" y="124.46" smashed="yes">
+<attribute name="NAME" x="-186.055" y="123.825" size="1.778" layer="95"/>
+</instance>
 <instance part="P+18" gate="1" x="-337.82" y="190.5" smashed="yes" rot="R180">
 <attribute name="VALUE" x="-335.28" y="190.5" size="1.778" layer="96"/>
 </instance>
@@ -24595,14 +24728,30 @@ Solder type</description>
 <attribute name="NAME" x="-192.405" y="189.738" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="-198.12" y="182.88" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="P" gate="-2" x="-190.5" y="187.96" rot="MR0"/>
-<instance part="P" gate="-3" x="-190.5" y="182.88" rot="MR0"/>
-<instance part="P" gate="-4" x="-190.5" y="185.42" rot="MR0"/>
-<instance part="P" gate="-5" x="-111.76" y="431.8"/>
-<instance part="P" gate="-6" x="-190.5" y="193.04" rot="MR0"/>
-<instance part="P" gate="-7" x="-111.76" y="436.88" rot="MR180"/>
-<instance part="P" gate="-8" x="-111.76" y="429.26"/>
-<instance part="P" gate="-9" x="-111.76" y="426.72"/>
+<instance part="P" gate="-2" x="-190.5" y="187.96" smashed="yes" rot="MR0">
+<attribute name="NAME" x="-192.405" y="187.198" size="1.778" layer="95" rot="MR0"/>
+</instance>
+<instance part="P" gate="-3" x="-190.5" y="182.88" smashed="yes" rot="MR0">
+<attribute name="NAME" x="-192.405" y="182.118" size="1.778" layer="95" rot="MR0"/>
+</instance>
+<instance part="P" gate="-4" x="-190.5" y="185.42" smashed="yes" rot="MR0">
+<attribute name="NAME" x="-192.405" y="184.658" size="1.778" layer="95" rot="MR0"/>
+</instance>
+<instance part="P" gate="-5" x="-111.76" y="431.8" smashed="yes">
+<attribute name="NAME" x="-109.855" y="431.038" size="1.778" layer="95"/>
+</instance>
+<instance part="P" gate="-6" x="-190.5" y="193.04" smashed="yes" rot="MR0">
+<attribute name="NAME" x="-192.405" y="192.278" size="1.778" layer="95" rot="MR0"/>
+</instance>
+<instance part="P" gate="-7" x="-111.76" y="436.88" smashed="yes" rot="MR180">
+<attribute name="NAME" x="-109.855" y="437.642" size="1.778" layer="95" rot="MR180"/>
+</instance>
+<instance part="P" gate="-8" x="-111.76" y="429.26" smashed="yes">
+<attribute name="NAME" x="-109.855" y="428.498" size="1.778" layer="95"/>
+</instance>
+<instance part="P" gate="-9" x="-111.76" y="426.72" smashed="yes">
+<attribute name="NAME" x="-109.855" y="425.958" size="1.778" layer="95"/>
+</instance>
 <instance part="KB2" gate="G$1" x="-132.08" y="449.58" smashed="yes" rot="R90">
 <attribute name="NAME" x="-146.05" y="453.898" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-146.05" y="449.58" size="1.778" layer="96" rot="R180"/>
@@ -24619,7 +24768,9 @@ Solder type</description>
 <attribute name="NAME" x="-265.684" y="162.0774" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-255.27" y="160.274" size="1.778" layer="96"/>
 </instance>
-<instance part="GND18" gate="1" x="-93.98" y="182.88"/>
+<instance part="GND18" gate="1" x="-93.98" y="182.88" smashed="yes">
+<attribute name="VALUE" x="-96.52" y="180.34" size="1.778" layer="96"/>
+</instance>
 <instance part="R36" gate="G$1" x="-175.26" y="170.18" smashed="yes" rot="R90">
 <attribute name="NAME" x="-177.3174" y="177.546" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-177.292" y="167.386" size="1.778" layer="96" rot="R270"/>
@@ -24646,9 +24797,9 @@ Solder type</description>
 <instance part="P+21" gate="1" x="-190.5" y="167.64" smashed="yes">
 <attribute name="VALUE" x="-193.04" y="167.64" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="EAR" gate="G$1" x="-7.62" y="195.58" smashed="yes" rot="MR0">
-<attribute name="NAME" x="-5.08" y="199.644" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="-7.62" y="191.008" size="1.778" layer="96" rot="MR180"/>
+<instance part="EAR" gate="G$1" x="2.54" y="195.58" smashed="yes" rot="MR0">
+<attribute name="NAME" x="5.08" y="199.644" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="2.54" y="191.008" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="R41" gate="G$1" x="-71.12" y="190.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="-73.914" y="195.0974" size="1.778" layer="95" rot="R180"/>
@@ -24662,11 +24813,21 @@ Solder type</description>
 <attribute name="NAME" x="-25.654" y="192.5574" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-25.654" y="189.992" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND19" gate="1" x="-86.36" y="182.88"/>
-<instance part="GND20" gate="1" x="-71.12" y="182.88"/>
-<instance part="GND21" gate="1" x="-22.86" y="182.88"/>
-<instance part="GND22" gate="1" x="-60.96" y="182.88"/>
-<instance part="GND23" gate="1" x="-10.16" y="182.88"/>
+<instance part="GND19" gate="1" x="-86.36" y="182.88" smashed="yes">
+<attribute name="VALUE" x="-88.9" y="180.34" size="1.778" layer="96"/>
+</instance>
+<instance part="GND20" gate="1" x="-71.12" y="182.88" smashed="yes">
+<attribute name="VALUE" x="-73.66" y="180.34" size="1.778" layer="96"/>
+</instance>
+<instance part="GND21" gate="1" x="-22.86" y="182.88" smashed="yes">
+<attribute name="VALUE" x="-25.4" y="180.34" size="1.778" layer="96"/>
+</instance>
+<instance part="GND22" gate="1" x="-60.96" y="182.88" smashed="yes">
+<attribute name="VALUE" x="-63.5" y="180.34" size="1.778" layer="96"/>
+</instance>
+<instance part="GND23" gate="1" x="0" y="182.88" smashed="yes">
+<attribute name="VALUE" x="-2.54" y="180.34" size="1.778" layer="96"/>
+</instance>
 <instance part="P+22" gate="1" x="-71.12" y="213.36" smashed="yes">
 <attribute name="VALUE" x="-73.66" y="213.36" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -24693,15 +24854,21 @@ Solder type</description>
 <attribute name="NAME" x="19.0754" y="333.756" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="21.59" y="333.502" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="GND24" gate="1" x="-55.88" y="350.52"/>
-<instance part="GND25" gate="1" x="-10.16" y="350.52"/>
+<instance part="GND24" gate="1" x="-55.88" y="350.52" smashed="yes">
+<attribute name="VALUE" x="-58.42" y="347.98" size="1.778" layer="96"/>
+</instance>
+<instance part="GND25" gate="1" x="-10.16" y="350.52" smashed="yes">
+<attribute name="VALUE" x="-12.7" y="347.98" size="1.778" layer="96"/>
+</instance>
 <instance part="P+24" gate="1" x="-73.66" y="297.18" smashed="yes" rot="R90">
 <attribute name="VALUE" x="-77.978" y="297.18" size="1.778" layer="96"/>
 </instance>
 <instance part="P-1" gate="1" x="-76.2" y="269.24" smashed="yes" rot="R270">
 <attribute name="VALUE" x="-80.01" y="268.732" size="1.778" layer="96"/>
 </instance>
-<instance part="GND26" gate="1" x="-76.2" y="276.86"/>
+<instance part="GND26" gate="1" x="-76.2" y="276.86" smashed="yes">
+<attribute name="VALUE" x="-78.74" y="274.32" size="1.778" layer="96"/>
+</instance>
 <instance part="TP6" gate="G$1" x="-76.2" y="302.26" smashed="yes" rot="R270">
 <attribute name="NAME" x="-78.74" y="304.927" size="1.778" layer="95" rot="R180"/>
 </instance>
@@ -24727,7 +24894,10 @@ Solder type</description>
 <attribute name="NAME" x="-186.69" y="202.438" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-186.69" y="198.12" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="IC3" gate="G$1" x="243.84" y="281.94"/>
+<instance part="IC3" gate="G$1" x="243.84" y="281.94" smashed="yes">
+<attribute name="NAME" x="246.38" y="295.275" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="246.38" y="292.1" size="1.778" layer="96" rot="MR0"/>
+</instance>
 <instance part="R34" gate="G$1" x="218.44" y="464.82" smashed="yes">
 <attribute name="NAME" x="210.82" y="465.0486" size="1.778" layer="95"/>
 <attribute name="VALUE" x="221.488" y="465.074" size="1.778" layer="96"/>
@@ -24742,14 +24912,25 @@ Solder type</description>
 <instance part="P+27" gate="1" x="254" y="381" smashed="yes">
 <attribute name="VALUE" x="254.762" y="381" size="1.778" layer="96"/>
 </instance>
-<instance part="GND27" gate="1" x="246.38" y="218.44"/>
+<instance part="GND27" gate="1" x="246.38" y="218.44" smashed="yes">
+<attribute name="VALUE" x="243.84" y="215.9" size="1.778" layer="96"/>
+</instance>
 <instance part="X2" gate="G$1" x="-393.7" y="132.08" smashed="yes">
 <attribute name="NAME" x="-396.24" y="136.144" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-393.7" y="127.508" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="7805" gate="A" x="-342.9" y="134.62"/>
-<instance part="C1" gate="G$1" x="-320.04" y="127"/>
-<instance part="C2" gate="G$1" x="-381" y="127"/>
+<instance part="7805" gate="A" x="-342.9" y="134.62" smashed="yes">
+<attribute name="NAME" x="-340.36" y="127" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-340.36" y="124.46" size="1.778" layer="96"/>
+</instance>
+<instance part="C1" gate="G$1" x="-320.04" y="127" smashed="yes">
+<attribute name="NAME" x="-318.897" y="127.4826" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-318.897" y="122.4026" size="1.778" layer="96"/>
+</instance>
+<instance part="C2" gate="G$1" x="-381" y="127" smashed="yes">
+<attribute name="NAME" x="-379.857" y="127.4826" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-379.857" y="122.4026" size="1.778" layer="96"/>
+</instance>
 <instance part="C3" gate="G$1" x="-370.84" y="124.46" smashed="yes" rot="R180">
 <attribute name="NAME" x="-368.3" y="127.635" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-368.3" y="122.047" size="1.778" layer="96"/>
@@ -24757,7 +24938,9 @@ Solder type</description>
 <instance part="P+29" gate="1" x="-314.96" y="142.24" smashed="yes" rot="R270">
 <attribute name="VALUE" x="-309.88" y="144.78" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND28" gate="1" x="-342.9" y="109.22"/>
+<instance part="GND28" gate="1" x="-342.9" y="109.22" smashed="yes">
+<attribute name="VALUE" x="-345.44" y="106.68" size="1.778" layer="96"/>
+</instance>
 <instance part="XTAL" gate="G$1" x="251.46" y="203.2" smashed="yes">
 <attribute name="NAME" x="254" y="204.216" size="1.778" layer="95"/>
 <attribute name="VALUE" x="247.142" y="198.628" size="1.778" layer="96"/>
@@ -24790,9 +24973,15 @@ Solder type</description>
 <attribute name="NAME" x="268.986" y="184.9374" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="268.986" y="182.372" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND29" gate="1" x="246.38" y="172.72"/>
-<instance part="GND30" gate="1" x="271.78" y="172.72"/>
-<instance part="GND31" gate="1" x="276.86" y="172.72"/>
+<instance part="GND29" gate="1" x="246.38" y="172.72" smashed="yes">
+<attribute name="VALUE" x="243.84" y="170.18" size="1.778" layer="96"/>
+</instance>
+<instance part="GND30" gate="1" x="271.78" y="172.72" smashed="yes">
+<attribute name="VALUE" x="269.24" y="170.18" size="1.778" layer="96"/>
+</instance>
+<instance part="GND31" gate="1" x="276.86" y="172.72" smashed="yes">
+<attribute name="VALUE" x="274.32" y="170.18" size="1.778" layer="96"/>
+</instance>
 <instance part="P+30" gate="1" x="271.78" y="226.06" smashed="yes">
 <attribute name="VALUE" x="267.462" y="226.06" size="1.778" layer="96"/>
 </instance>
@@ -24811,8 +25000,12 @@ Solder type</description>
 <attribute name="NAME" x="352.806" y="225.5774" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="352.806" y="223.012" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND32" gate="1" x="355.6" y="215.9"/>
-<instance part="GND33" gate="1" x="396.24" y="213.36"/>
+<instance part="GND32" gate="1" x="355.6" y="215.9" smashed="yes">
+<attribute name="VALUE" x="353.06" y="213.36" size="1.778" layer="96"/>
+</instance>
+<instance part="GND33" gate="1" x="396.24" y="213.36" smashed="yes">
+<attribute name="VALUE" x="393.7" y="210.82" size="1.778" layer="96"/>
+</instance>
 <instance part="D17" gate="G$1" x="266.7" y="256.54" smashed="yes" rot="R90">
 <attribute name="NAME" x="269.24" y="257.0226" size="1.778" layer="95"/>
 <attribute name="VALUE" x="269.24" y="254.7366" size="1.778" layer="96"/>
@@ -24821,7 +25014,9 @@ Solder type</description>
 <attribute name="NAME" x="269.24" y="251.9426" size="1.778" layer="95"/>
 <attribute name="VALUE" x="268.986" y="249.6566" size="1.778" layer="96"/>
 </instance>
-<instance part="GND34" gate="1" x="266.7" y="246.38"/>
+<instance part="GND34" gate="1" x="266.7" y="246.38" smashed="yes">
+<attribute name="VALUE" x="264.16" y="243.84" size="1.778" layer="96"/>
+</instance>
 <instance part="P+31" gate="1" x="266.7" y="261.62" smashed="yes">
 <attribute name="VALUE" x="262.382" y="261.62" size="1.778" layer="96"/>
 </instance>
@@ -24841,8 +25036,12 @@ Solder type</description>
 <attribute name="NAME" x="26.67" y="108.1786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="26.67" y="105.918" size="1.778" layer="96"/>
 </instance>
-<instance part="GND35" gate="1" x="25.4" y="99.06"/>
-<instance part="GND36" gate="1" x="38.1" y="99.06"/>
+<instance part="GND35" gate="1" x="25.4" y="99.06" smashed="yes">
+<attribute name="VALUE" x="22.86" y="96.52" size="1.778" layer="96"/>
+</instance>
+<instance part="GND36" gate="1" x="38.1" y="99.06" smashed="yes">
+<attribute name="VALUE" x="35.56" y="96.52" size="1.778" layer="96"/>
+</instance>
 <instance part="R66" gate="G$1" x="38.1" y="121.92" smashed="yes" rot="R270">
 <attribute name="NAME" x="39.37" y="123.4186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="39.37" y="121.158" size="1.778" layer="96"/>
@@ -24855,7 +25054,9 @@ Solder type</description>
 <attribute name="NAME" x="60.96" y="106.68" size="1.778" layer="95"/>
 <attribute name="VALUE" x="60.96" y="104.14" size="1.778" layer="96"/>
 </instance>
-<instance part="GND37" gate="1" x="58.42" y="99.06"/>
+<instance part="GND37" gate="1" x="58.42" y="99.06" smashed="yes">
+<attribute name="VALUE" x="55.88" y="96.52" size="1.778" layer="96"/>
+</instance>
 <instance part="C48" gate="G$1" x="68.58" y="114.3" smashed="yes" rot="R90">
 <attribute name="NAME" x="71.12" y="118.745" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="68.58" y="109.347" size="1.778" layer="96"/>
@@ -24884,19 +25085,30 @@ Solder type</description>
 <attribute name="NAME" x="182.88" y="114.3" size="1.778" layer="95"/>
 <attribute name="VALUE" x="182.88" y="111.76" size="1.778" layer="96"/>
 </instance>
-<instance part="GND38" gate="1" x="76.2" y="99.06"/>
+<instance part="GND38" gate="1" x="76.2" y="99.06" smashed="yes">
+<attribute name="VALUE" x="73.66" y="96.52" size="1.778" layer="96"/>
+</instance>
 <instance part="R67" gate="G$1" x="93.98" y="114.3" smashed="yes" rot="R180">
 <attribute name="NAME" x="92.71" y="115.7986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="97.79" y="112.522" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="C50" gate="G$1" x="99.06" y="106.68"/>
+<instance part="C50" gate="G$1" x="99.06" y="106.68" smashed="yes">
+<attribute name="NAME" x="100.584" y="107.061" size="1.778" layer="95"/>
+<attribute name="VALUE" x="100.584" y="101.981" size="1.778" layer="96"/>
+</instance>
 <instance part="C49" gate="G$1" x="86.36" y="104.14" smashed="yes" rot="MR180">
 <attribute name="NAME" x="87.503" y="108.7374" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="87.503" y="103.6574" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="GND39" gate="1" x="86.36" y="99.06"/>
-<instance part="GND40" gate="1" x="99.06" y="99.06"/>
-<instance part="GND41" gate="1" x="109.22" y="99.06"/>
+<instance part="GND39" gate="1" x="86.36" y="99.06" smashed="yes">
+<attribute name="VALUE" x="83.82" y="96.52" size="1.778" layer="96"/>
+</instance>
+<instance part="GND40" gate="1" x="99.06" y="99.06" smashed="yes">
+<attribute name="VALUE" x="96.52" y="96.52" size="1.778" layer="96"/>
+</instance>
+<instance part="GND41" gate="1" x="109.22" y="99.06" smashed="yes">
+<attribute name="VALUE" x="106.68" y="96.52" size="1.778" layer="96"/>
+</instance>
 <instance part="P-2" gate="1" x="139.7" y="114.3" smashed="yes" rot="R90">
 <attribute name="VALUE" x="143.51" y="114.3" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -24912,9 +25124,15 @@ Solder type</description>
 <attribute name="NAME" x="171.45" y="120.8786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="176.53" y="117.602" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND42" gate="1" x="162.56" y="104.14"/>
-<instance part="GND43" gate="1" x="180.34" y="104.14"/>
-<instance part="P+35" gate="1" x="198.12" y="119.38" rot="R270"/>
+<instance part="GND42" gate="1" x="162.56" y="104.14" smashed="yes">
+<attribute name="VALUE" x="160.02" y="101.6" size="1.778" layer="96"/>
+</instance>
+<instance part="GND43" gate="1" x="180.34" y="104.14" smashed="yes">
+<attribute name="VALUE" x="177.8" y="101.6" size="1.778" layer="96"/>
+</instance>
+<instance part="P+35" gate="1" x="198.12" y="119.38" smashed="yes" rot="R270">
+<attribute name="VALUE" x="193.04" y="121.92" size="1.778" layer="96"/>
+</instance>
 <instance part="D15" gate="G$1" x="264.16" y="363.22" smashed="yes" rot="R90">
 <attribute name="NAME" x="266.7" y="366.2426" size="1.778" layer="95"/>
 <attribute name="VALUE" x="266.7" y="363.4486" size="1.778" layer="96"/>
@@ -24923,7 +25141,9 @@ Solder type</description>
 <attribute name="NAME" x="266.7" y="358.6226" size="1.778" layer="95"/>
 <attribute name="VALUE" x="269.24" y="355.3714" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND44" gate="1" x="264.16" y="353.06"/>
+<instance part="GND44" gate="1" x="264.16" y="353.06" smashed="yes">
+<attribute name="VALUE" x="261.62" y="350.52" size="1.778" layer="96"/>
+</instance>
 <instance part="P+25" gate="1" x="264.16" y="368.3" smashed="yes">
 <attribute name="VALUE" x="259.842" y="368.3" size="1.778" layer="96"/>
 </instance>
@@ -24965,8 +25185,13 @@ Solder type</description>
 <attribute name="NAME" x="282.4226" y="292.1" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="286.4866" y="295.91" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="IC4" gate="B" x="304.8" y="266.7"/>
-<instance part="IC4" gate="P" x="-223.52" y="124.46"/>
+<instance part="IC4" gate="B" x="304.8" y="266.7" smashed="yes">
+<attribute name="NAME" x="307.34" y="272.415" size="1.778" layer="95"/>
+<attribute name="VALUE" x="307.34" y="259.08" size="1.778" layer="96"/>
+</instance>
+<instance part="IC4" gate="P" x="-223.52" y="124.46" smashed="yes">
+<attribute name="NAME" x="-224.155" y="123.825" size="1.778" layer="95"/>
+</instance>
 <instance part="P+32" gate="1" x="304.8" y="279.4" smashed="yes">
 <attribute name="VALUE" x="311.658" y="279.4" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -24977,7 +25202,9 @@ Solder type</description>
 <attribute name="NAME" x="302.26" y="320.675" size="1.778" layer="95"/>
 <attribute name="VALUE" x="302.26" y="317.5" size="1.778" layer="96"/>
 </instance>
-<instance part="GND45" gate="1" x="309.88" y="284.48"/>
+<instance part="GND45" gate="1" x="309.88" y="284.48" smashed="yes">
+<attribute name="VALUE" x="307.34" y="281.94" size="1.778" layer="96"/>
+</instance>
 <instance part="P+34" gate="1" x="307.34" y="350.52" smashed="yes">
 <attribute name="VALUE" x="313.436" y="352.552" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -24992,12 +25219,28 @@ Solder type</description>
 <attribute name="NAME" x="358.14" y="320.675" size="1.778" layer="95"/>
 <attribute name="VALUE" x="358.14" y="317.5" size="1.778" layer="96"/>
 </instance>
-<instance part="C45" gate="G$1" x="322.58" y="325.12"/>
-<instance part="C44" gate="G$1" x="332.74" y="325.12"/>
-<instance part="C46" gate="G$1" x="342.9" y="325.12"/>
-<instance part="GND47" gate="1" x="342.9" y="317.5"/>
-<instance part="GND46" gate="1" x="375.92" y="284.48"/>
-<instance part="C53" gate="G$1" x="411.48" y="289.56"/>
+<instance part="C45" gate="G$1" x="322.58" y="325.12" smashed="yes">
+<attribute name="NAME" x="324.104" y="325.501" size="1.778" layer="95"/>
+<attribute name="VALUE" x="324.104" y="320.421" size="1.778" layer="96"/>
+</instance>
+<instance part="C44" gate="G$1" x="332.74" y="325.12" smashed="yes">
+<attribute name="NAME" x="334.264" y="325.501" size="1.778" layer="95"/>
+<attribute name="VALUE" x="334.264" y="320.421" size="1.778" layer="96"/>
+</instance>
+<instance part="C46" gate="G$1" x="342.9" y="325.12" smashed="yes">
+<attribute name="NAME" x="344.424" y="325.501" size="1.778" layer="95"/>
+<attribute name="VALUE" x="344.424" y="320.421" size="1.778" layer="96"/>
+</instance>
+<instance part="GND47" gate="1" x="342.9" y="317.5" smashed="yes">
+<attribute name="VALUE" x="340.36" y="314.96" size="1.778" layer="96"/>
+</instance>
+<instance part="GND46" gate="1" x="375.92" y="284.48" smashed="yes">
+<attribute name="VALUE" x="373.38" y="281.94" size="1.778" layer="96"/>
+</instance>
+<instance part="C53" gate="G$1" x="411.48" y="289.56" smashed="yes">
+<attribute name="NAME" x="412.623" y="290.0426" size="1.778" layer="95"/>
+<attribute name="VALUE" x="412.623" y="284.9626" size="1.778" layer="96"/>
+</instance>
 <instance part="P+37" gate="1" x="386.08" y="355.6" smashed="yes">
 <attribute name="VALUE" x="392.176" y="357.632" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -25005,7 +25248,10 @@ Solder type</description>
 <attribute name="NAME" x="387.35" y="346.9386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="387.35" y="344.678" size="1.778" layer="96"/>
 </instance>
-<instance part="D25_" gate="G$1" x="314.96" y="388.62"/>
+<instance part="D25_" gate="G$1" x="314.96" y="388.62" smashed="yes">
+<attribute name="NAME" x="312.42" y="391.16" size="1.778" layer="95"/>
+<attribute name="VALUE" x="320.04" y="386.08" size="1.778" layer="96" rot="R180"/>
+</instance>
 <instance part="R53" gate="G$1" x="299.72" y="381" smashed="yes" rot="R270">
 <attribute name="NAME" x="300.99" y="382.4986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="300.99" y="380.238" size="1.778" layer="96"/>
@@ -25017,7 +25263,9 @@ Solder type</description>
 <instance part="P+38" gate="1" x="299.72" y="403.86" smashed="yes">
 <attribute name="VALUE" x="305.816" y="405.892" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND48" gate="1" x="299.72" y="373.38"/>
+<instance part="GND48" gate="1" x="299.72" y="373.38" smashed="yes">
+<attribute name="VALUE" x="297.18" y="370.84" size="1.778" layer="96"/>
+</instance>
 <instance part="P+39" gate="1" x="368.3" y="408.94" smashed="yes">
 <attribute name="VALUE" x="366.776" y="410.972" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -25025,7 +25273,7 @@ Solder type</description>
 <attribute name="NAME" x="375.412" y="393.7" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="375.92" y="396.24" size="1.778" layer="96"/>
 </instance>
-<instance part="L1" gate="G$2" x="370.84" y="401.32"/>
+<instance part="L1" gate="G$2" x="370.84" y="401.32" smashed="yes"/>
 <instance part="R71" gate="G$1" x="327.66" y="246.38" smashed="yes" rot="R180">
 <attribute name="NAME" x="325.374" y="247.8786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="324.612" y="243.332" size="1.778" layer="96"/>
@@ -25041,12 +25289,16 @@ Solder type</description>
 <instance part="P+40" gate="1" x="345.44" y="304.8" smashed="yes" rot="R90">
 <attribute name="VALUE" x="341.122" y="304.8" size="1.778" layer="96"/>
 </instance>
-<instance part="GND50" gate="1" x="330.2" y="254"/>
+<instance part="GND50" gate="1" x="330.2" y="254" smashed="yes">
+<attribute name="VALUE" x="327.66" y="251.46" size="1.778" layer="96"/>
+</instance>
 <instance part="C40" gate="G$1" x="340.36" y="261.62" smashed="yes" rot="R180">
 <attribute name="NAME" x="344.424" y="262.001" size="1.778" layer="95"/>
 <attribute name="VALUE" x="344.424" y="259.461" size="1.778" layer="96"/>
 </instance>
-<instance part="GND51" gate="1" x="340.36" y="256.54"/>
+<instance part="GND51" gate="1" x="340.36" y="256.54" smashed="yes">
+<attribute name="VALUE" x="337.82" y="254" size="1.778" layer="96"/>
+</instance>
 <instance part="R56" gate="G$1" x="347.98" y="271.78" smashed="yes" rot="R180">
 <attribute name="NAME" x="345.694" y="273.2786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="344.932" y="268.732" size="1.778" layer="96"/>
@@ -25067,7 +25319,9 @@ Solder type</description>
 <attribute name="NAME" x="371.094" y="258.0386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="371.094" y="255.524" size="1.778" layer="96"/>
 </instance>
-<instance part="GND52" gate="1" x="368.3" y="248.92"/>
+<instance part="GND52" gate="1" x="368.3" y="248.92" smashed="yes">
+<attribute name="VALUE" x="365.76" y="246.38" size="1.778" layer="96"/>
+</instance>
 <instance part="L2" gate="G$1" x="342.9" y="246.38" smashed="yes" rot="R90">
 <attribute name="NAME" x="342.9" y="245.11" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="345.44" y="250.19" size="1.778" layer="96" rot="R180"/>
@@ -25087,17 +25341,34 @@ Solder type</description>
 <attribute name="NAME" x="387.604" y="310.261" size="1.778" layer="95"/>
 <attribute name="VALUE" x="387.604" y="305.181" size="1.778" layer="96"/>
 </instance>
-<instance part="GND53" gate="1" x="411.48" y="281.94"/>
-<instance part="GND54" gate="1" x="401.32" y="281.94"/>
+<instance part="GND53" gate="1" x="411.48" y="281.94" smashed="yes">
+<attribute name="VALUE" x="408.94" y="279.4" size="1.778" layer="96"/>
+</instance>
+<instance part="GND54" gate="1" x="401.32" y="281.94" smashed="yes">
+<attribute name="VALUE" x="398.78" y="279.4" size="1.778" layer="96"/>
+</instance>
 <instance part="C43" gate="G$1" x="401.32" y="287.02" smashed="yes" rot="R180">
 <attribute name="NAME" x="393.7" y="287.655" size="1.778" layer="95"/>
 <attribute name="VALUE" x="393.7" y="284.607" size="1.778" layer="96"/>
 </instance>
-<instance part="FRAME1" gate="G$1" x="0" y="0"/>
-<instance part="FRAME1" gate="G$2" x="325.12" y="0"/>
-<instance part="IC4" gate="A" x="401.32" y="261.62"/>
-<instance part="L3" gate="G$1" x="396.24" y="309.88"/>
-<instance part="JP" gate="G$1" x="292.1" y="215.9"/>
+<instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
+<instance part="FRAME1" gate="G$2" x="325.12" y="0" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="337.82" y="1.27" size="2.54" layer="94" font="vector"/>
+<attribute name="SHEET" x="411.48" y="1.27" size="2.54" layer="94" font="vector"/>
+<attribute name="DRAWING_NAME" x="342.9" y="19.05" size="2.54" layer="94" font="vector"/>
+</instance>
+<instance part="IC4" gate="A" x="401.32" y="261.62" smashed="yes">
+<attribute name="NAME" x="403.86" y="267.335" size="1.778" layer="95"/>
+<attribute name="VALUE" x="403.86" y="254" size="1.778" layer="96"/>
+</instance>
+<instance part="L3" gate="G$1" x="396.24" y="309.88" smashed="yes">
+<attribute name="NAME" x="394.7414" y="306.07" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="399.542" y="306.07" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="JP" gate="G$1" x="292.1" y="215.9" smashed="yes">
+<attribute name="NAME" x="294.005" y="215.9" size="1.778" layer="95"/>
+<attribute name="VALUE" x="294.005" y="213.36" size="1.778" layer="96"/>
+</instance>
 <instance part="C32" gate="G$1" x="-309.88" y="124.46" smashed="yes" rot="R180">
 <attribute name="NAME" x="-307.34" y="127.635" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-307.34" y="122.047" size="1.778" layer="96"/>
@@ -25110,11 +25381,23 @@ Solder type</description>
 <attribute name="NAME" x="325.628" y="298.2214" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="325.628" y="295.148" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND49" gate="1" x="327.66" y="284.48"/>
-<instance part="C26" gate="G$1" x="-48.26" y="233.68"/>
-<instance part="C27" gate="G$1" x="-38.1" y="233.68"/>
-<instance part="GND56" gate="1" x="-48.26" y="226.06"/>
-<instance part="GND57" gate="1" x="-38.1" y="226.06"/>
+<instance part="GND49" gate="1" x="327.66" y="284.48" smashed="yes">
+<attribute name="VALUE" x="325.12" y="281.94" size="1.778" layer="96"/>
+</instance>
+<instance part="C26" gate="G$1" x="-48.26" y="233.68" smashed="yes">
+<attribute name="NAME" x="-46.736" y="234.061" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-46.736" y="228.981" size="1.778" layer="96"/>
+</instance>
+<instance part="C27" gate="G$1" x="-38.1" y="233.68" smashed="yes">
+<attribute name="NAME" x="-36.576" y="234.061" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-36.576" y="228.981" size="1.778" layer="96"/>
+</instance>
+<instance part="GND56" gate="1" x="-48.26" y="226.06" smashed="yes">
+<attribute name="VALUE" x="-50.8" y="223.52" size="1.778" layer="96"/>
+</instance>
+<instance part="GND57" gate="1" x="-38.1" y="226.06" smashed="yes">
+<attribute name="VALUE" x="-40.64" y="223.52" size="1.778" layer="96"/>
+</instance>
 <instance part="C12" gate="G$1" x="-289.56" y="124.46" smashed="yes" rot="R180">
 <attribute name="NAME" x="-287.02" y="127.635" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-287.02" y="122.047" size="1.778" layer="96"/>
@@ -25135,14 +25418,34 @@ Solder type</description>
 <attribute name="NAME" x="-246.38" y="127.635" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-246.38" y="122.047" size="1.778" layer="96"/>
 </instance>
-<instance part="C30" gate="G$1" x="210.82" y="119.38"/>
-<instance part="C23" gate="G$1" x="220.98" y="119.38"/>
-<instance part="C25" gate="G$1" x="231.14" y="119.38"/>
-<instance part="GND58" gate="1" x="210.82" y="104.14"/>
-<instance part="GND59" gate="1" x="220.98" y="104.14"/>
-<instance part="GND60" gate="1" x="231.14" y="104.14"/>
-<instance part="C28" gate="G$1" x="241.3" y="119.38"/>
-<instance part="GND61" gate="1" x="241.3" y="104.14"/>
+<instance part="C30" gate="G$1" x="210.82" y="119.38" smashed="yes">
+<attribute name="NAME" x="212.344" y="119.761" size="1.778" layer="95"/>
+<attribute name="VALUE" x="212.344" y="114.681" size="1.778" layer="96"/>
+</instance>
+<instance part="C23" gate="G$1" x="220.98" y="119.38" smashed="yes">
+<attribute name="NAME" x="222.504" y="119.761" size="1.778" layer="95"/>
+<attribute name="VALUE" x="222.504" y="114.681" size="1.778" layer="96"/>
+</instance>
+<instance part="C25" gate="G$1" x="231.14" y="119.38" smashed="yes">
+<attribute name="NAME" x="232.664" y="119.761" size="1.778" layer="95"/>
+<attribute name="VALUE" x="232.664" y="114.681" size="1.778" layer="96"/>
+</instance>
+<instance part="GND58" gate="1" x="210.82" y="104.14" smashed="yes">
+<attribute name="VALUE" x="208.28" y="101.6" size="1.778" layer="96"/>
+</instance>
+<instance part="GND59" gate="1" x="220.98" y="104.14" smashed="yes">
+<attribute name="VALUE" x="218.44" y="101.6" size="1.778" layer="96"/>
+</instance>
+<instance part="GND60" gate="1" x="231.14" y="104.14" smashed="yes">
+<attribute name="VALUE" x="228.6" y="101.6" size="1.778" layer="96"/>
+</instance>
+<instance part="C28" gate="G$1" x="241.3" y="119.38" smashed="yes">
+<attribute name="NAME" x="242.824" y="119.761" size="1.778" layer="95"/>
+<attribute name="VALUE" x="242.824" y="114.681" size="1.778" layer="96"/>
+</instance>
+<instance part="GND61" gate="1" x="241.3" y="104.14" smashed="yes">
+<attribute name="VALUE" x="238.76" y="101.6" size="1.778" layer="96"/>
+</instance>
 <instance part="C33" gate="G$1" x="-238.76" y="124.46" smashed="yes" rot="R180">
 <attribute name="NAME" x="-236.22" y="127.635" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-236.22" y="122.047" size="1.778" layer="96"/>
@@ -25150,8 +25453,12 @@ Solder type</description>
 <instance part="P+28" gate="G$1" x="-76.2" y="266.7" smashed="yes" rot="R90">
 <attribute name="VALUE" x="-82.804" y="265.43" size="1.778" layer="96"/>
 </instance>
-<instance part="P+42" gate="1" x="-370.84" y="139.7"/>
-<instance part="P+43" gate="1" x="38.1" y="134.62"/>
+<instance part="P+42" gate="1" x="-370.84" y="139.7" smashed="yes">
+<attribute name="VALUE" x="-373.38" y="137.16" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="P+43" gate="1" x="38.1" y="134.62" smashed="yes">
+<attribute name="VALUE" x="35.56" y="132.08" size="1.778" layer="96" rot="R90"/>
+</instance>
 <instance part="TP3" gate="G$1" x="-48.26" y="170.18" smashed="yes" rot="R90">
 <attribute name="NAME" x="-43.815" y="167.64" size="1.778" layer="95" rot="R90"/>
 </instance>
@@ -25161,12 +25468,16 @@ Solder type</description>
 <instance part="TP8" gate="G$1" x="274.32" y="345.44" smashed="yes">
 <attribute name="NAME" x="271.78" y="340.995" size="1.778" layer="95"/>
 </instance>
-<instance part="J2" gate="-0R" x="203.2" y="129.54"/>
-<instance part="J2" gate="G$2" x="200.66" y="132.08"/>
+<instance part="J2" gate="-0R" x="203.2" y="129.54" smashed="yes">
+<attribute name="NAME" x="205.74" y="130.81" size="1.778" layer="95"/>
+</instance>
+<instance part="J2" gate="G$2" x="200.66" y="132.08" smashed="yes"/>
 <instance part="P+44" gate="1" x="203.2" y="139.7" smashed="yes">
 <attribute name="VALUE" x="198.882" y="139.7" size="1.778" layer="96"/>
 </instance>
-<instance part="VDD1" gate="G$1" x="241.3" y="134.62"/>
+<instance part="VDD1" gate="G$1" x="241.3" y="134.62" smashed="yes">
+<attribute name="VALUE" x="238.76" y="132.08" size="1.778" layer="96" rot="R90"/>
+</instance>
 <instance part="J3" gate="1" x="-66.04" y="269.24" smashed="yes">
 <attribute name="NAME" x="-64.008" y="266.954" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-68.58" y="265.43" size="1.778" layer="96"/>
@@ -25179,15 +25490,28 @@ Solder type</description>
 <attribute name="NAME" x="354.33" y="362.1786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="354.33" y="359.918" size="1.778" layer="96"/>
 </instance>
-<instance part="GND55" gate="1" x="353.06" y="350.52"/>
-<instance part="J4" gate="1" x="391.16" y="228.6"/>
+<instance part="GND55" gate="1" x="353.06" y="350.52" smashed="yes">
+<attribute name="VALUE" x="350.52" y="347.98" size="1.778" layer="96"/>
+</instance>
+<instance part="J4" gate="1" x="391.16" y="228.6" smashed="yes">
+<attribute name="NAME" x="388.62" y="231.14" size="1.778" layer="95"/>
+<attribute name="VALUE" x="388.62" y="224.79" size="1.778" layer="96"/>
+</instance>
 <instance part="X1" gate="B" x="406.4" y="365.76" smashed="yes" rot="MR0">
 <attribute name="NAME" x="407.924" y="367.03" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="411.48" y="360.68" size="1.778" layer="96" rot="MR90"/>
 </instance>
-<instance part="GND62" gate="1" x="401.32" y="355.6"/>
-<instance part="C5" gate="G$1" x="-35.56" y="198.12" rot="R90"/>
-<instance part="C58" gate="G$1" x="393.7" y="365.76" rot="R90"/>
+<instance part="GND62" gate="1" x="401.32" y="355.6" smashed="yes">
+<attribute name="VALUE" x="398.78" y="353.06" size="1.778" layer="96"/>
+</instance>
+<instance part="C5" gate="G$1" x="-35.56" y="198.12" smashed="yes" rot="R90">
+<attribute name="NAME" x="-36.0426" y="199.263" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-30.9626" y="199.263" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="C58" gate="G$1" x="393.7" y="365.76" smashed="yes" rot="R90">
+<attribute name="NAME" x="393.2174" y="366.903" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="398.2974" y="366.903" size="1.778" layer="96" rot="R90"/>
+</instance>
 <instance part="R77" gate="G$1" x="381" y="365.76" smashed="yes">
 <attribute name="NAME" x="379.73" y="367.2586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="379.73" y="362.458" size="1.778" layer="96"/>
@@ -25198,15 +25522,27 @@ Solder type</description>
 <instance part="J1" gate="-0R" x="-335.28" y="317.5" smashed="yes" rot="R270">
 <attribute name="NAME" x="-334.518" y="321.31" size="1.778" layer="95" rot="R90"/>
 </instance>
-<instance part="J1" gate="G$2" x="-332.74" y="320.04" rot="R270"/>
+<instance part="J1" gate="G$2" x="-332.74" y="320.04" smashed="yes" rot="R270"/>
 <instance part="P+46" gate="1" x="-332.74" y="327.66" smashed="yes">
 <attribute name="VALUE" x="-330.2" y="330.2" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="IC10" gate="A" x="-137.16" y="231.14"/>
-<instance part="IC10" gate="B" x="-137.16" y="208.28"/>
-<instance part="IC10" gate="P" x="-177.8" y="124.46"/>
+<instance part="IC10" gate="A" x="-137.16" y="231.14" smashed="yes">
+<attribute name="NAME" x="-144.78" y="239.395" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-144.78" y="218.44" size="1.778" layer="96"/>
+</instance>
+<instance part="IC10" gate="B" x="-137.16" y="208.28" smashed="yes">
+<attribute name="NAME" x="-144.78" y="216.535" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-144.78" y="195.58" size="1.778" layer="96"/>
+</instance>
+<instance part="IC10" gate="P" x="-177.8" y="124.46" smashed="yes">
+<attribute name="NAME" x="-178.435" y="123.825" size="1.778" layer="95"/>
+</instance>
 <instance part="P+47" gate="1" x="-160.02" y="223.52" smashed="yes">
 <attribute name="VALUE" x="-162.56" y="223.52" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="J5" gate="1" x="-7.62" y="195.58" smashed="yes">
+<attribute name="NAME" x="-8.382" y="191.516" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-10.16" y="191.77" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -25315,7 +25651,7 @@ Solder type</description>
 <pinref part="GND21" gate="1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="-10.16" y1="193.04" x2="-10.16" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="0" y1="193.04" x2="0" y2="185.42" width="0.1524" layer="91"/>
 <pinref part="EAR" gate="G$1" pin="SHIELD"/>
 <pinref part="GND23" gate="1" pin="GND"/>
 </segment>
@@ -27736,18 +28072,18 @@ Solder type</description>
 </net>
 <net name="N$16" class="0">
 <segment>
-<wire x1="-10.16" y1="198.12" x2="-12.7" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="-12.7" y1="198.12" x2="-22.86" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="0" y1="198.12" x2="-15.24" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="198.12" x2="-22.86" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="198.12" x2="-22.86" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="-30.48" y1="198.12" x2="-22.86" y2="198.12" width="0.1524" layer="91"/>
 <junction x="-22.86" y="198.12"/>
 <pinref part="EAR" gate="G$1" pin="TIP"/>
 <pinref part="R70" gate="G$1" pin="2"/>
-<pinref part="EAR" gate="G$1" pin="NC"/>
-<wire x1="-10.16" y1="195.58" x2="-12.7" y2="195.58" width="0.1524" layer="91"/>
-<wire x1="-12.7" y1="195.58" x2="-12.7" y2="198.12" width="0.1524" layer="91"/>
-<junction x="-12.7" y="198.12"/>
 <pinref part="C5" gate="G$1" pin="-"/>
+<pinref part="J5" gate="1" pin="1"/>
+<wire x1="-12.7" y1="195.58" x2="-15.24" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="195.58" x2="-15.24" y2="198.12" width="0.1524" layer="91"/>
+<junction x="-15.24" y="198.12"/>
 </segment>
 </net>
 <net name="!ULAINT" class="0">
@@ -29084,10 +29420,15 @@ Solder type</description>
 <pinref part="C2" gate="G$1" pin="+"/>
 <wire x1="-381" y1="129.54" x2="-381" y2="134.62" width="0.1524" layer="91"/>
 <junction x="-381" y="134.62"/>
-<wire x1="-391.16" y1="134.62" x2="-381" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="-391.16" y1="134.62" x2="-388.62" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="P+42" gate="1" pin="V+"/>
+<wire x1="-388.62" y1="134.62" x2="-381" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="-370.84" y1="137.16" x2="-370.84" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="X2" gate="G$1" pin="TIP"/>
+<pinref part="X2" gate="G$1" pin="NC"/>
+<wire x1="-391.16" y1="132.08" x2="-388.62" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="-388.62" y1="132.08" x2="-388.62" y2="134.62" width="0.1524" layer="91"/>
+<junction x="-388.62" y="134.62"/>
 </segment>
 </net>
 <net name="VDD" class="1">
@@ -29263,6 +29604,13 @@ Solder type</description>
 <wire x1="-337.82" y1="312.42" x2="-337.82" y2="304.8" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="N$88" class="0">
+<segment>
+<pinref part="EAR" gate="G$1" pin="NC"/>
+<pinref part="J5" gate="1" pin="2"/>
+<wire x1="0" y1="195.58" x2="-2.54" y2="195.58" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
@@ -29319,6 +29667,7 @@ Solder type</description>
 <approved hash="113,1,291.152,215.9,JP,,,,,"/>
 <approved hash="113,1,-66.04,268.74,J3,,,,,"/>
 <approved hash="113,1,391.16,230.116,J4,,,,,"/>
+<approved hash="113,1,-7.62,194.191,J5,,,,,"/>
 </errors>
 </schematic>
 </drawing>

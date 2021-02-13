@@ -11403,7 +11403,7 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="C1" library="rcl" package="E5-5" value="10V100u" x="203.2" y="83.82" smashed="yes" rot="R90">
+<element name="C1" library="rcl" package="E5-5" value="10V1000u" x="203.2" y="83.82" smashed="yes" rot="R90">
 <attribute name="NAME" x="202.5777" y="88.9635" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="206.2226" y="81.3054" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>

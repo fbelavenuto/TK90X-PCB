@@ -1,5 +1,5 @@
 Part Value       Device          Package      Description
-C1   10V100u     CPOL-EUE5-5     E5-5         POLARIZED CAPACITOR, European symbol
+C1   10V1000u    CPOL-EUE5-5     E5-5         POLARIZED CAPACITOR, European symbol
 C2   25V100u     CPOL-EUE5-6     E5-6         POLARIZED CAPACITOR, European symbol
 C3   100n        C-EU050-024X044 C050-024X044 CAPACITOR, European symbol
 C5   6.3V100u    CPOL-EUE5-4     E5-4         POLARIZED CAPACITOR, European symbol

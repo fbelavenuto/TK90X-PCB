@@ -30471,7 +30471,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
 <part name="X1" library="tk90" deviceset="JACKP2_S" device="" value="POWER"/>
 <part name="IC29" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="78XXL" device="" package3d_urn="urn:adsk.eagle:package:30361/1" value="7805"/>
-<part name="C1" library="rcl" deviceset="CPOL-EU" device="E5-5" value="10V1000u"/>
+<part name="C1" library="rcl" deviceset="CPOL-EU" device="E5-8.5" value="10V1000u"/>
 <part name="C2" library="rcl" deviceset="CPOL-EU" device="E5-6" value="25V100u"/>
 <part name="C3" library="rcl" deviceset="C-EU" device="050-024X044" value="100n"/>
 <part name="P+29" library="supply1" deviceset="+5V" device=""/>

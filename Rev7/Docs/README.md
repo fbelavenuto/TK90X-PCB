@@ -8,6 +8,8 @@ Utilize o arquivo PDF [mapa.pdf](mapa.pdf) para auxiliar na montagem.
 
 Ao montar a placa, não é necessário soldar nada em `JP`, a PCB já vem com a conexão certa.
 
+É possível usar soquetes nos CIs, a lista com quantidades está na versão em excel da lista de material. Para a ULA, caso use a versão clonada em CPLD, use soquete torneado para melhor encaixe.
+
 No conector de energia `X1` existe o jumper `J1` para configurar o tipo de jack usado. Feche `J1` para jack P2 mono ou deixe aberto para jack P2 estéreo.
 
 Se quiser ter 32K de RAM alta, montar `IC5`, `IC6`, `IC7`, `IC21`, `IC22`, `IC23`, `IC24`, `IC25`, `IC26`, `IC27` e não montar `D11`, `D12`, `R33`.
@@ -67,7 +69,7 @@ Não esqueça de colocar um dissipador apropriado para o regulador 7805. É poss
 
 ## Fotos
 
-Segue exemplo de montagem. Nesta montagem de validação foram testados todas as opções. Foi utilizado uma placa DC/DC no lugar do 7805, DRAMs 4416 e EPROM. Não foi soldado um conector em `X5`, os jacks do MIC e EAR são estéreos e o Jack `X1` é mono. Foi utilizado nos testes uma ULA original e um clone em FPGA, que aparece nas fotos.
+Segue exemplo de montagem com soquetes. Nesta montagem de validação foram testados todas as opções. Foi utilizado uma placa DC/DC no lugar do 7805, DRAMs 4416 e EPROM. Não foi soldado um conector em `X5`, os jacks do MIC e EAR são estéreos e o Jack `X1` é mono. Foi utilizado nos testes uma ULA original e um clone em FPGA, que aparece nas fotos.
 
 
 ![Lado dos componentes](Foto_Montada_Top.jpg)

@@ -6,7 +6,9 @@ A lista de componentes contém os componentes para a montagem da placa. Algums c
 
 Utilize o arquivo PDF [mapa.pdf](mapa.pdf) para auxiliar na montagem.
 
-Ao montar a placa, não é necessário soldar nada em JP, a PCB já vem com a conexão certa.
+Ao montar a placa, não é necessário soldar nada em `JP`, a PCB já vem com a conexão certa.
+
+É possível usar soquetes nos CIs, a lista com quantidades está na versão em excel da lista de material. Para a ULA, caso use a versão clonada em CPLD, use soquete torneado para melhor encaixe.
 
 Não montar os componentes `L1`, `L3`, `C41`, `R54`, `R57`, `R58`, `R59` e `D25_`
 

@@ -6,8 +6,9 @@ Todos são resistores de 1/4W
 
 | Qtde | Valor | Obs |
 |:----:|-------|-----|
+| 1    | 33Ω   | |
 | 1    | 75Ω   | |
-| 5    | 100Ω  | |
+| 4    | 100Ω  | |
 | 1    | 150Ω  | |
 | 2    | 220Ω  | |
 | 23   | 470Ω  | |
@@ -30,7 +31,8 @@ Todos são resistores de 1/4W
 |  1   | 4n7   | Cerâmico ou Poliester |
 |  1   | 10n   | Cerâmico ou Poliester |
 |  30  | 100n  | Cerâmico ou Poliester |
-|  2   | 1u    | Cerâmico ou Eletrolítico |
+|  1   | 1u    | Cerâmico ou Eletrolítico |
+|  1   | 10u/16V | Eletrolítico |
 |  1   | 1000u/16V | Eletrolítico |
 |  1   | 100u/6V3  | Eletrolítico |
 |  1   | 100u/16V  | Eletrolítico |

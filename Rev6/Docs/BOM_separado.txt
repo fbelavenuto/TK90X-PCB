@@ -47,7 +47,7 @@ C48  100n           C-EU050-024X044 C050-024X044 CAPACITOR, European symbol
 C49  1u             CPOL-EUE2-4     E2-4         POLARIZED CAPACITOR, European symbol
 C50  100n           C-EU050-024X044 C050-024X044 CAPACITOR, European symbol
 C51  100n           C-EU050-024X044 C050-024X044 CAPACITOR, European symbol
-C52  1u             CPOL-EUE2-5     E2-5         POLARIZED CAPACITOR, European symbol
+C52  10u            CPOL-EUE2-5     E2-5         POLARIZED CAPACITOR, European symbol
 C53  100u           CPOL-EUE5-4     E5-4         POLARIZED CAPACITOR, European symbol
 C54  100n           C-EU050-024X044 C050-024X044 CAPACITOR, European symbol
 C55  100n           C-EU050-024X044 C050-024X044 CAPACITOR, European symbol
@@ -189,7 +189,7 @@ R64  4K7            R-EU_0207/12    0207/12      RESISTOR, European symbol
 R65  1K             R-EU_0207/12    0207/12      RESISTOR, European symbol
 R66  470            R-EU_0207/12    0207/12      RESISTOR, European symbol
 R67  470            R-EU_0207/12    0207/12      RESISTOR, European symbol
-R68  100            R-EU_0207/12    0207/12      RESISTOR, European symbol
+R68  33             R-EU_0207/12    0207/12      RESISTOR, European symbol
 R69  100            R-EU_0207/5V    0207/5V      RESISTOR, European symbol
 R70  100            R-EU_0207/5V    0207/5V      RESISTOR, European symbol
 R71  3K3            R-EU_0207/5V    0207/5V      RESISTOR, European symbol

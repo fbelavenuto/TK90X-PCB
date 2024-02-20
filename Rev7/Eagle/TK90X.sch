@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -30332,7 +30332,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="U$1" library="tk90" deviceset="TK90_EDGE" device=""/>
+<part name="U$1" library="tk90" deviceset="TK90_EDGE" device="" value=""/>
 <part name="R30" library="rcl" deviceset="R-EU_" device="0207/12" value="4K7"/>
 <part name="R32" library="rcl" deviceset="R-EU_" device="0207/12" value="4K7"/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>

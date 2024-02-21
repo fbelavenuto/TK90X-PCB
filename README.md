@@ -56,7 +56,7 @@ O conector RCA extra está posicionado no mesmo lugar da saída de RF do ZX Spec
 
 Dentro de cada pasta de cada revisão há três subpastas com os nomes *Docs*, *Eagle* e *Gerber*. O esquema elétrico em PDF, imagens, lista de materiais, etc, estão em *Docs*. Na subpasta *Eagle* há os arquivos originais para a versão 9 do software Autodesk Eagle. Para a confecção das placas há os arquivos em formato gerber na pasta *Gerber* que podem ser enviados para uma empresa de fabricação de PCBs.
 
-Para a Rev.7 abra o arquivo [ibom.html](Rev7/Docs/ibom.html) localmente para visualizar os componentes e seus lugares na placa. Criado com o projeto [InteractiveHtmlBom](https://github.com/openscopeproject/InteractiveHtmlBom), linha de comando: `generate_interactive_bom --highlight-pin1 all --blacklist-empty-val TK90X.brd`
+Para a Rev.7 abra o arquivo [ibom.html](Rev7/Docs/ibom.html) localmente ou acesse [este link](https://fbelavenuto.github.io/pages/TK90X-PCB-Rev7-ibom.html) para visualizar os componentes e seus lugares na placa. Criado com o projeto [InteractiveHtmlBom](https://github.com/openscopeproject/InteractiveHtmlBom), linha de comando: `generate_interactive_bom --highlight-pin1 all --blacklist-empty-val TK90X.brd`
 
 # Observações
 

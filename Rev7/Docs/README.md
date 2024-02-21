@@ -8,7 +8,7 @@ Os componentes estão relacionados [neste](Lista_Material.md) arquivo.
 
 Algums componentes são opcionais, explicado no texto. A lista de materiais não contempla chaves e botões opcionais relatados no texto.
 
-Utilize o arquivo PDF [mapa.pdf](mapa.pdf) para auxiliar na montagem.
+Para facilitar a montagem abra o arquivo [ibom.html](Rev1/Docs/ibom.html) localmente ou acesse [este link](https://fbelavenuto.github.io/pages/TK90X-PCB-Rev7-ibom.html) para visualizar os componentes e seus lugares na placa. Existe também o arquivo PDF [mapa.pdf](mapa.pdf) para impressão.
 
 Começe soldando os componentes que são montados deitados, como alguns resistores e diodos. Depois solde os componentes que são montados em pé. Deixe os circuitos integrados e conectores para o final.
 
